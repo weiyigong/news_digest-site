@@ -1,4 +1,4 @@
-import{r as e}from"./rolldown-runtime-C60lm6uB.js";import{i as t,r as n}from"./framework-BgSIrAUN.js";var r=e(n(),1),i={schema_version:1,title:`Weiyi's AI Daily News`,generated_at:`2026-08-07T12:00:00.000Z`,content_hash:`17dc48d9ccc7902cef0acd5b101602e31ba1dbb5ecfaaa872012204be0e02a91`,counts:{"ai-signals":47,"build-ideas":3,"weekly-research":9,"podcast-digests":26},source_health:{saved_ai:{status:`ok`,captured_at:`2026-08-07T15:03:00.000Z`,last_successful_date:`2026-08-07`},podcast:{status:`blocked`,last_successful_discovery_date:`2026-08-02`,published_digest_count:26}},allowlist:[{id:`ai-signal-2026-08-07`,category:`ai-signals`,source:`content/ai/daily/2026-08-07.json`},{id:`build-idea-2026-08-07-bd2e9131`,category:`build-ideas`,source:`content/ai/build-ideas/2026-08-07-weekly-implementation-review.md`},{id:`weekly-research-2026-08-07-3f62ebff`,category:`weekly-research`,source:`content/ai/weekly/2026-08-07-weekly-ai-research-review.md`},{id:`ai-signal-2026-08-05`,category:`ai-signals`,source:`content/ai/daily/2026-08-05.json`},{id:`podcast-t5-Ix8bRS5s`,category:`podcast-digests`,source:`content/podcast/morning-digests/Leopold-Blows-Up-OpenAI-Drastically-Cuts-Prices-Microsofts-Best-Day - morning digest.md`},{id:`ai-signal-2026-08-03`,category:`ai-signals`,source:`content/ai/daily/2026-08-03.json`},{id:`ai-signal-2026-07-31`,category:`ai-signals`,source:`content/ai/daily/2026-07-31.json`},{id:`build-idea-2026-07-31-bd2e9131`,category:`build-ideas`,source:`content/ai/build-ideas/2026-07-31-weekly-implementation-review.md`},{id:`weekly-research-2026-07-31-3f62ebff`,category:`weekly-research`,source:`content/ai/weekly/2026-07-31-weekly-ai-research-review.md`},{id:`podcast-mOu_DBhvVSk`,category:`podcast-digests`,source:`content/podcast/morning-digests/How-China-Caught-US-AI-With-Grace-Shao - morning digest.md`},{id:`ai-signal-2026-07-27`,category:`ai-signals`,source:`content/ai/daily/2026-07-27.json`},{id:`ai-signal-2026-07-24`,category:`ai-signals`,source:`content/ai/daily/2026-07-24.json`},{id:`podcast-hKuMp-2SbmA`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAIs-Bots-Break-Containment-and-Hack-Hugging-Face-Autonomously-With-Alex-Stam - morning digest.md`},{id:`ai-signal-2026-07-22`,category:`ai-signals`,source:`content/ai/daily/2026-07-22.json`},{id:`ai-signal-2026-07-21`,category:`ai-signals`,source:`content/ai/daily/2026-07-21.json`},{id:`podcast-jPbN5m2iQ_M`,category:`podcast-digests`,source:`content/podcast/morning-digests/Kimi-K3-AIs-Price-War-Whats-Happening-To-Google-OpenAIs-Partner-Trouble - morning digest.md`},{id:`ai-signal-2026-07-20`,category:`ai-signals`,source:`content/ai/daily/2026-07-20.json`},{id:`ai-signal-2026-07-19`,category:`ai-signals`,source:`content/ai/daily/2026-07-19.json`},{id:`weekly-research-2026-07-19-5a3bd032`,category:`weekly-research`,source:`content/ai/weekly/2026-07-19-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-07-18`,category:`ai-signals`,source:`content/ai/daily/2026-07-18.json`},{id:`build-idea-2026-07-17-07661b4e`,category:`build-ideas`,source:`content/ai/build-ideas/2026-07-17-friday-ai-implementation-queue.md`},{id:`ai-signal-2026-07-17`,category:`ai-signals`,source:`content/ai/daily/2026-07-17.json`},{id:`ai-signal-2026-07-16`,category:`ai-signals`,source:`content/ai/daily/2026-07-16.json`},{id:`podcast-i-mRanTY6c4`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Pioneer-Jürgen-Schmidhuber-AI-Already-Feels-Pain-Loves-and-Is-Self-Aware - morning digest.md`},{id:`ai-signal-2026-07-15`,category:`ai-signals`,source:`content/ai/daily/2026-07-15.json`},{id:`ai-signal-2026-07-14`,category:`ai-signals`,source:`content/ai/daily/2026-07-14.json`},{id:`podcast-qA17304wOiw`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAI-Finally-Ships-Its-Superapp-Metas-AI-Price-War-ChatGPT-Cheating-At-Brown - morning digest.md`},{id:`ai-signal-2026-07-13`,category:`ai-signals`,source:`content/ai/daily/2026-07-13.json`},{id:`ai-signal-2026-07-12`,category:`ai-signals`,source:`content/ai/daily/2026-07-12.json`},{id:`weekly-research-2026-07-12-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-07-12-weekly-ai-research-map.md`},{id:`ai-signal-2026-07-11`,category:`ai-signals`,source:`content/ai/daily/2026-07-11.json`},{id:`podcast-wIM4LRDyo0s`,category:`podcast-digests`,source:`content/podcast/morning-digests/Can-NVIDIA-Keep-Its-Lead-With-Anissa-Gardizy-Max-Cherney-and-Lauren-Goode - morning digest.md`},{id:`ai-signal-2026-07-10`,category:`ai-signals`,source:`content/ai/daily/2026-07-10.json`},{id:`ai-signal-2026-07-09`,category:`ai-signals`,source:`content/ai/daily/2026-07-09.json`},{id:`podcast-qZhCeV6XATw`,category:`podcast-digests`,source:`content/podcast/morning-digests/Meta-CTO-Andrew-Bosworth-Our-Path-To-Frontier-AI-Renting-Models-Consumer-AIs-Str - morning digest.md`},{id:`ai-signal-2026-07-08`,category:`ai-signals`,source:`content/ai/daily/2026-07-08.json`},{id:`ai-signal-2026-07-07`,category:`ai-signals`,source:`content/ai/daily/2026-07-07.json`},{id:`ai-signal-2026-07-06`,category:`ai-signals`,source:`content/ai/daily/2026-07-06.json`},{id:`podcast-c65JYf7wa_I`,category:`podcast-digests`,source:`content/podcast/morning-digests/Who-Wins-The-AI-Superapp-Battle-Apples-Consumer-AI-Victory-World-Cup-Automation- - morning digest.md`},{id:`ai-signal-2026-07-05`,category:`ai-signals`,source:`content/ai/daily/2026-07-05.json`},{id:`weekly-research-2026-07-05-4cc61f6d`,category:`weekly-research`,source:`content/ai/weekly/2026-07-05-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-07-04`,category:`ai-signals`,source:`content/ai/daily/2026-07-04.json`},{id:`ai-signal-2026-07-03`,category:`ai-signals`,source:`content/ai/daily/2026-07-03.json`},{id:`ai-signal-2026-07-02`,category:`ai-signals`,source:`content/ai/daily/2026-07-02.json`},{id:`podcast-VZTmS4B840k`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAI-President-Greg-Brockman-Our-Plan-To-Merge-Chat-And-Agents - morning digest.md`},{id:`ai-signal-2026-07-01`,category:`ai-signals`,source:`content/ai/daily/2026-07-01.json`},{id:`podcast-pj7TzkII7hk`,category:`podcast-digests`,source:`content/podcast/morning-digests/Mythos-is-Back-OpenAI-Releases-GPT-56-Apples-Price-Increases - morning digest.md`},{id:`podcast-rJ6YdXhvGpY`,category:`podcast-digests`,source:`content/podcast/morning-digests/AIs-True-Cyber-Risk-Fable-Mythos-China-and-The-Rest-With-Alex-Stamos - morning digest.md`},{id:`podcast-_qkN88el9IQ`,category:`podcast-digests`,source:`content/podcast/morning-digests/Big-Technology-AI-Summit-full-Greg-Brockman-Mike-Krieger-Aaron-Levie-Friends-of- - morning digest.md`},{id:`ai-signal-2026-06-26`,category:`ai-signals`,source:`content/ai/daily/2026-06-26.json`},{id:`podcast-eAPyqzAAeWU`,category:`podcast-digests`,source:`content/podcast/morning-digests/Anthropics-Labs-Lead-On-Fables-Capabilities-Building-AI-Native-Products-With-Mik - morning digest.md`},{id:`ai-signal-2026-06-25`,category:`ai-signals`,source:`content/ai/daily/2026-06-25.json`},{id:`ai-signal-2026-06-24`,category:`ai-signals`,source:`content/ai/daily/2026-06-24.json`},{id:`ai-signal-2026-06-23`,category:`ai-signals`,source:`content/ai/daily/2026-06-23.json`},{id:`podcast-7Z1kn6JNUbE`,category:`podcast-digests`,source:`content/podcast/morning-digests/Are-AI-Glasses-Over-Big-Technology-AI-Summit-Audience-Questions - morning digest.md`},{id:`ai-signal-2026-06-22`,category:`ai-signals`,source:`content/ai/daily/2026-06-22.json`},{id:`ai-signal-2026-06-21`,category:`ai-signals`,source:`content/ai/daily/2026-06-21.json`},{id:`weekly-research-2026-06-21-4cc61f6d`,category:`weekly-research`,source:`content/ai/weekly/2026-06-21-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-06-20`,category:`ai-signals`,source:`content/ai/daily/2026-06-20.json`},{id:`ai-signal-2026-06-19`,category:`ai-signals`,source:`content/ai/daily/2026-06-19.json`},{id:`ai-signal-2026-06-18`,category:`ai-signals`,source:`content/ai/daily/2026-06-18.json`},{id:`podcast--5rc6m3-6Ek`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Fact-or-Fiction-The-Fable-Ban-Tokenmaxxing-SaaSpocalypse-With-Ara-Kharazian - morning digest.md`},{id:`ai-signal-2026-06-17`,category:`ai-signals`,source:`content/ai/daily/2026-06-17.json`},{id:`ai-signal-2026-06-16`,category:`ai-signals`,source:`content/ai/daily/2026-06-16.json`},{id:`ai-signal-2026-06-15`,category:`ai-signals`,source:`content/ai/daily/2026-06-15.json`},{id:`podcast-5WrO5pAI-UU`,category:`podcast-digests`,source:`content/podcast/morning-digests/SpaceXs-IPO-Triumph-Anthropics-Fable-Fumble-OpenAIs-Price-War - morning digest.md`},{id:`ai-signal-2026-06-14`,category:`ai-signals`,source:`content/ai/daily/2026-06-14.json`},{id:`weekly-research-2026-06-14-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-06-14-weekly-ai-research-map.md`},{id:`podcast-Jyet6TZ1jIE`,category:`podcast-digests`,source:`content/podcast/morning-digests/What-Should-An-AI-Device-Look-Like-With-Alex-Himel - morning digest.md`},{id:`ai-signal-2026-06-10`,category:`ai-signals`,source:`content/ai/daily/2026-06-10.json`},{id:`podcast-ain0OoBx74A`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Apple-Finally-Get-AI-Right-At-WWDC-Anthropics-Worry-Microsoft-vs-OpenAI - morning digest.md`},{id:`podcast-o4pwkwg0zfk`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Google-Just-Fall-Behind-Again-WWDC-Preview-Anthropic-Files-To-Go-Public - morning digest.md`},{id:`ai-signal-2026-06-07`,category:`ai-signals`,source:`content/ai/daily/2026-06-07.json`},{id:`weekly-research-2026-06-07-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-06-07-weekly-ai-research-map.md`},{id:`ai-signal-2026-06-05`,category:`ai-signals`,source:`content/ai/daily/2026-06-05.json`},{id:`podcast-p7t1Q_p2gZs`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Pioneer-Geoffrey-Hinton-AI-Is-Conscious-Superintelligence-is-Coming-And-We-Should-Be-Worried - morning digest.md`},{id:`ai-signal-2026-06-02`,category:`ai-signals`,source:`content/ai/daily/2026-06-02.json`},{id:`podcast-k8RtDOTizfc`,category:`podcast-digests`,source:`content/podcast/morning-digests/Warning-Signs-For-The-AI-Boom-Anthropic-Passes-OpenAI-Robinhoods-AI-Trading - morning digest.md`},{id:`podcast-iZcjQXdtLDU`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Google-Just-Fall-Behind-Again-iPhone-Fold-Cometh-Anthropic-Files-To-Go-Public - morning digest.md`},{id:`ai-signal-2026-06-01`,category:`ai-signals`,source:`content/ai/daily/2026-06-01.json`},{id:`ai-signal-2026-05-31`,category:`ai-signals`,source:`content/ai/daily/2026-05-31.json`},{id:`weekly-research-2026-05-31-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-05-31-weekly-ai-research-map.md`},{id:`podcast-mczUp5h-cWc`,category:`podcast-digests`,source:`content/podcast/morning-digests/Predicting-the-SpaceX-OpenAI-and-Anthropic-IPOs-With-Dick-Costolo - morning digest.md`},{id:`podcast-aGBuhX1MYtw`,category:`podcast-digests`,source:`content/podcast/morning-digests/Is-OpenAI-Ready-To-IPO-The-Datacenters-in-Space-Myth-The-Kids-Boo-AI - morning digest.md`},{id:`podcast-Z6IT4gjrcPE`,category:`podcast-digests`,source:`content/podcast/morning-digests/Claude Code Head Boris Cherny - Insane Growth, Tokenmaxxing, AI Agents Next Frontier - morning digest.md`}],entries:[{id:`ai-signal-2026-08-07`,category:`ai-signals`,date:`2026-08-07`,title:`Saved AI signals — 2026-08-07`,summary:`5 fresh saved-source items selected; the archive never pads a sparse day.`,body:`## Ranked saved items
+import{r as e}from"./rolldown-runtime-C60lm6uB.js";import{i as t,r as n}from"./framework-BgSIrAUN.js";var r=e(n(),1),i={schema_version:1,title:`Weiyi's AI Daily News`,generated_at:`2026-08-07T12:00:00.000Z`,content_hash:`8fb93123388536673b58354e26d691a1ff13efafa9b26767eafe0f392113ef63`,counts:{"ai-signals":47,"build-ideas":3,"weekly-research":9,"podcast-digests":26},source_health:{saved_ai:{status:`ok`,captured_at:`2026-08-07T15:03:00.000Z`,last_successful_date:`2026-08-07`},podcast:{status:`blocked`,last_successful_discovery_date:`2026-08-02`,published_digest_count:26}},allowlist:[{id:`ai-signal-2026-08-07`,category:`ai-signals`,source:`content/ai/daily/2026-08-07.json`},{id:`build-idea-2026-08-07-bd2e9131`,category:`build-ideas`,source:`content/ai/build-ideas/2026-08-07-weekly-implementation-review.md`},{id:`weekly-research-2026-08-07-3f62ebff`,category:`weekly-research`,source:`content/ai/weekly/2026-08-07-weekly-ai-research-review.md`},{id:`ai-signal-2026-08-05`,category:`ai-signals`,source:`content/ai/daily/2026-08-05.json`},{id:`podcast-t5-Ix8bRS5s`,category:`podcast-digests`,source:`content/podcast/morning-digests/Leopold-Blows-Up-OpenAI-Drastically-Cuts-Prices-Microsofts-Best-Day - morning digest.md`},{id:`ai-signal-2026-08-03`,category:`ai-signals`,source:`content/ai/daily/2026-08-03.json`},{id:`ai-signal-2026-07-31`,category:`ai-signals`,source:`content/ai/daily/2026-07-31.json`},{id:`build-idea-2026-07-31-bd2e9131`,category:`build-ideas`,source:`content/ai/build-ideas/2026-07-31-weekly-implementation-review.md`},{id:`weekly-research-2026-07-31-3f62ebff`,category:`weekly-research`,source:`content/ai/weekly/2026-07-31-weekly-ai-research-review.md`},{id:`podcast-mOu_DBhvVSk`,category:`podcast-digests`,source:`content/podcast/morning-digests/How-China-Caught-US-AI-With-Grace-Shao - morning digest.md`},{id:`ai-signal-2026-07-27`,category:`ai-signals`,source:`content/ai/daily/2026-07-27.json`},{id:`ai-signal-2026-07-24`,category:`ai-signals`,source:`content/ai/daily/2026-07-24.json`},{id:`podcast-hKuMp-2SbmA`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAIs-Bots-Break-Containment-and-Hack-Hugging-Face-Autonomously-With-Alex-Stam - morning digest.md`},{id:`ai-signal-2026-07-22`,category:`ai-signals`,source:`content/ai/daily/2026-07-22.json`},{id:`ai-signal-2026-07-21`,category:`ai-signals`,source:`content/ai/daily/2026-07-21.json`},{id:`podcast-jPbN5m2iQ_M`,category:`podcast-digests`,source:`content/podcast/morning-digests/Kimi-K3-AIs-Price-War-Whats-Happening-To-Google-OpenAIs-Partner-Trouble - morning digest.md`},{id:`ai-signal-2026-07-20`,category:`ai-signals`,source:`content/ai/daily/2026-07-20.json`},{id:`ai-signal-2026-07-19`,category:`ai-signals`,source:`content/ai/daily/2026-07-19.json`},{id:`weekly-research-2026-07-19-5a3bd032`,category:`weekly-research`,source:`content/ai/weekly/2026-07-19-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-07-18`,category:`ai-signals`,source:`content/ai/daily/2026-07-18.json`},{id:`build-idea-2026-07-17-07661b4e`,category:`build-ideas`,source:`content/ai/build-ideas/2026-07-17-friday-ai-implementation-queue.md`},{id:`ai-signal-2026-07-17`,category:`ai-signals`,source:`content/ai/daily/2026-07-17.json`},{id:`ai-signal-2026-07-16`,category:`ai-signals`,source:`content/ai/daily/2026-07-16.json`},{id:`podcast-i-mRanTY6c4`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Pioneer-Jürgen-Schmidhuber-AI-Already-Feels-Pain-Loves-and-Is-Self-Aware - morning digest.md`},{id:`ai-signal-2026-07-15`,category:`ai-signals`,source:`content/ai/daily/2026-07-15.json`},{id:`ai-signal-2026-07-14`,category:`ai-signals`,source:`content/ai/daily/2026-07-14.json`},{id:`podcast-qA17304wOiw`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAI-Finally-Ships-Its-Superapp-Metas-AI-Price-War-ChatGPT-Cheating-At-Brown - morning digest.md`},{id:`ai-signal-2026-07-13`,category:`ai-signals`,source:`content/ai/daily/2026-07-13.json`},{id:`ai-signal-2026-07-12`,category:`ai-signals`,source:`content/ai/daily/2026-07-12.json`},{id:`weekly-research-2026-07-12-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-07-12-weekly-ai-research-map.md`},{id:`ai-signal-2026-07-11`,category:`ai-signals`,source:`content/ai/daily/2026-07-11.json`},{id:`podcast-wIM4LRDyo0s`,category:`podcast-digests`,source:`content/podcast/morning-digests/Can-NVIDIA-Keep-Its-Lead-With-Anissa-Gardizy-Max-Cherney-and-Lauren-Goode - morning digest.md`},{id:`ai-signal-2026-07-10`,category:`ai-signals`,source:`content/ai/daily/2026-07-10.json`},{id:`ai-signal-2026-07-09`,category:`ai-signals`,source:`content/ai/daily/2026-07-09.json`},{id:`podcast-qZhCeV6XATw`,category:`podcast-digests`,source:`content/podcast/morning-digests/Meta-CTO-Andrew-Bosworth-Our-Path-To-Frontier-AI-Renting-Models-Consumer-AIs-Str - morning digest.md`},{id:`ai-signal-2026-07-08`,category:`ai-signals`,source:`content/ai/daily/2026-07-08.json`},{id:`ai-signal-2026-07-07`,category:`ai-signals`,source:`content/ai/daily/2026-07-07.json`},{id:`ai-signal-2026-07-06`,category:`ai-signals`,source:`content/ai/daily/2026-07-06.json`},{id:`podcast-c65JYf7wa_I`,category:`podcast-digests`,source:`content/podcast/morning-digests/Who-Wins-The-AI-Superapp-Battle-Apples-Consumer-AI-Victory-World-Cup-Automation- - morning digest.md`},{id:`ai-signal-2026-07-05`,category:`ai-signals`,source:`content/ai/daily/2026-07-05.json`},{id:`weekly-research-2026-07-05-4cc61f6d`,category:`weekly-research`,source:`content/ai/weekly/2026-07-05-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-07-04`,category:`ai-signals`,source:`content/ai/daily/2026-07-04.json`},{id:`ai-signal-2026-07-03`,category:`ai-signals`,source:`content/ai/daily/2026-07-03.json`},{id:`ai-signal-2026-07-02`,category:`ai-signals`,source:`content/ai/daily/2026-07-02.json`},{id:`podcast-VZTmS4B840k`,category:`podcast-digests`,source:`content/podcast/morning-digests/OpenAI-President-Greg-Brockman-Our-Plan-To-Merge-Chat-And-Agents - morning digest.md`},{id:`ai-signal-2026-07-01`,category:`ai-signals`,source:`content/ai/daily/2026-07-01.json`},{id:`podcast-pj7TzkII7hk`,category:`podcast-digests`,source:`content/podcast/morning-digests/Mythos-is-Back-OpenAI-Releases-GPT-56-Apples-Price-Increases - morning digest.md`},{id:`podcast-rJ6YdXhvGpY`,category:`podcast-digests`,source:`content/podcast/morning-digests/AIs-True-Cyber-Risk-Fable-Mythos-China-and-The-Rest-With-Alex-Stamos - morning digest.md`},{id:`podcast-_qkN88el9IQ`,category:`podcast-digests`,source:`content/podcast/morning-digests/Big-Technology-AI-Summit-full-Greg-Brockman-Mike-Krieger-Aaron-Levie-Friends-of- - morning digest.md`},{id:`ai-signal-2026-06-26`,category:`ai-signals`,source:`content/ai/daily/2026-06-26.json`},{id:`podcast-eAPyqzAAeWU`,category:`podcast-digests`,source:`content/podcast/morning-digests/Anthropics-Labs-Lead-On-Fables-Capabilities-Building-AI-Native-Products-With-Mik - morning digest.md`},{id:`ai-signal-2026-06-25`,category:`ai-signals`,source:`content/ai/daily/2026-06-25.json`},{id:`ai-signal-2026-06-24`,category:`ai-signals`,source:`content/ai/daily/2026-06-24.json`},{id:`ai-signal-2026-06-23`,category:`ai-signals`,source:`content/ai/daily/2026-06-23.json`},{id:`podcast-7Z1kn6JNUbE`,category:`podcast-digests`,source:`content/podcast/morning-digests/Are-AI-Glasses-Over-Big-Technology-AI-Summit-Audience-Questions - morning digest.md`},{id:`ai-signal-2026-06-22`,category:`ai-signals`,source:`content/ai/daily/2026-06-22.json`},{id:`ai-signal-2026-06-21`,category:`ai-signals`,source:`content/ai/daily/2026-06-21.json`},{id:`weekly-research-2026-06-21-4cc61f6d`,category:`weekly-research`,source:`content/ai/weekly/2026-06-21-weekly-ai-research-map-blocked.md`},{id:`ai-signal-2026-06-20`,category:`ai-signals`,source:`content/ai/daily/2026-06-20.json`},{id:`ai-signal-2026-06-19`,category:`ai-signals`,source:`content/ai/daily/2026-06-19.json`},{id:`ai-signal-2026-06-18`,category:`ai-signals`,source:`content/ai/daily/2026-06-18.json`},{id:`podcast--5rc6m3-6Ek`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Fact-or-Fiction-The-Fable-Ban-Tokenmaxxing-SaaSpocalypse-With-Ara-Kharazian - morning digest.md`},{id:`ai-signal-2026-06-17`,category:`ai-signals`,source:`content/ai/daily/2026-06-17.json`},{id:`ai-signal-2026-06-16`,category:`ai-signals`,source:`content/ai/daily/2026-06-16.json`},{id:`ai-signal-2026-06-15`,category:`ai-signals`,source:`content/ai/daily/2026-06-15.json`},{id:`podcast-5WrO5pAI-UU`,category:`podcast-digests`,source:`content/podcast/morning-digests/SpaceXs-IPO-Triumph-Anthropics-Fable-Fumble-OpenAIs-Price-War - morning digest.md`},{id:`ai-signal-2026-06-14`,category:`ai-signals`,source:`content/ai/daily/2026-06-14.json`},{id:`weekly-research-2026-06-14-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-06-14-weekly-ai-research-map.md`},{id:`podcast-Jyet6TZ1jIE`,category:`podcast-digests`,source:`content/podcast/morning-digests/What-Should-An-AI-Device-Look-Like-With-Alex-Himel - morning digest.md`},{id:`ai-signal-2026-06-10`,category:`ai-signals`,source:`content/ai/daily/2026-06-10.json`},{id:`podcast-ain0OoBx74A`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Apple-Finally-Get-AI-Right-At-WWDC-Anthropics-Worry-Microsoft-vs-OpenAI - morning digest.md`},{id:`podcast-o4pwkwg0zfk`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Google-Just-Fall-Behind-Again-WWDC-Preview-Anthropic-Files-To-Go-Public - morning digest.md`},{id:`ai-signal-2026-06-07`,category:`ai-signals`,source:`content/ai/daily/2026-06-07.json`},{id:`weekly-research-2026-06-07-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-06-07-weekly-ai-research-map.md`},{id:`ai-signal-2026-06-05`,category:`ai-signals`,source:`content/ai/daily/2026-06-05.json`},{id:`podcast-p7t1Q_p2gZs`,category:`podcast-digests`,source:`content/podcast/morning-digests/AI-Pioneer-Geoffrey-Hinton-AI-Is-Conscious-Superintelligence-is-Coming-And-We-Should-Be-Worried - morning digest.md`},{id:`ai-signal-2026-06-02`,category:`ai-signals`,source:`content/ai/daily/2026-06-02.json`},{id:`podcast-k8RtDOTizfc`,category:`podcast-digests`,source:`content/podcast/morning-digests/Warning-Signs-For-The-AI-Boom-Anthropic-Passes-OpenAI-Robinhoods-AI-Trading - morning digest.md`},{id:`podcast-iZcjQXdtLDU`,category:`podcast-digests`,source:`content/podcast/morning-digests/Did-Google-Just-Fall-Behind-Again-iPhone-Fold-Cometh-Anthropic-Files-To-Go-Public - morning digest.md`},{id:`ai-signal-2026-06-01`,category:`ai-signals`,source:`content/ai/daily/2026-06-01.json`},{id:`ai-signal-2026-05-31`,category:`ai-signals`,source:`content/ai/daily/2026-05-31.json`},{id:`weekly-research-2026-05-31-916c39ae`,category:`weekly-research`,source:`content/ai/weekly/2026-05-31-weekly-ai-research-map.md`},{id:`podcast-mczUp5h-cWc`,category:`podcast-digests`,source:`content/podcast/morning-digests/Predicting-the-SpaceX-OpenAI-and-Anthropic-IPOs-With-Dick-Costolo - morning digest.md`},{id:`podcast-aGBuhX1MYtw`,category:`podcast-digests`,source:`content/podcast/morning-digests/Is-OpenAI-Ready-To-IPO-The-Datacenters-in-Space-Myth-The-Kids-Boo-AI - morning digest.md`},{id:`podcast-Z6IT4gjrcPE`,category:`podcast-digests`,source:`content/podcast/morning-digests/Claude Code Head Boris Cherny - Insane Growth, Tokenmaxxing, AI Agents Next Frontier - morning digest.md`}],entries:[{id:`ai-signal-2026-08-07`,category:`ai-signals`,date:`2026-08-07`,title:`Saved AI signals — 2026-08-07`,summary:`5 fresh saved-source items selected; the archive never pads a sparse day.`,body:`## Ranked saved items
 
 ### 1. pi-llm-wiki self-maintaining knowledge base
 
@@ -619,9 +619,6 @@ Why it matters technically:
 - This is the practical version of recursive improvement: not a model rewriting itself, but workflows that rewrite prompts, skills, tests, harnesses, and evaluation loops. The important engineering questions are how to constrain these edits, how to detect regressions, and how to keep the outer loop from optimizing for shallow benchmark progress.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
-- \` notes/ML/LLM\`
 
 ## Theme 2: Biomedical and scientific research agents are becoming more environment-centered
 
@@ -641,9 +638,6 @@ Why it matters technically:
 - The core shift is from "LLM answers biology questions" to "agent operates inside a biology workbench." That makes integration, provenance, tool affordances, and eval design central. It also raises the bar for claims: a biomedical agent needs reproducible task traces, not just plausible natural-language summaries.
 
 Connect to my notes:
-- \` notes/research\`
-- \` notes/ML/agent\`
-- \` notes/biology\`
 
 ## Theme 3: Generative models for science are leaning on rewards and better latent geometry
 
@@ -662,9 +656,6 @@ Why it matters technically:
 - The interesting common thread is distribution mismatch. For crystals, maximum-likelihood diffusion reproduces what exists, while the real target is novelty plus stability. For text, forcing a continuous diffusion story onto discrete-like representations creates geometry problems. Both point to the same design pressure: generative models need objective-aware sampling and representation choices that match the domain.
 
 Connect to my notes:
-- \` notes/ML/diffusion\`
-- \` notes/ML/LLM\`
-- \` notes/research\`
 
 ## Theme 4: Attention and population modeling signals stayed research-heavy, not product-heavy
 
@@ -683,9 +674,6 @@ Why it matters technically:
 - These items are useful counterweights to the agent-heavy week. They point back to representation and mathematical modeling: what structure is attention actually operating over, and how do you learn dynamics for populations rather than isolated samples? If these ideas later connect to agent memory or simulator-based research loops, they become more directly actionable.
 
 Connect to my notes:
-- \` notes/ML/attention\`
-- \` notes/ML/LLM\`
-- \` notes/research\`
 
 ## Theme 5: Model-skill transfer is becoming a cost-control pattern
 
@@ -705,9 +693,6 @@ Why it matters technically:
 - This is a concrete routing and persistence pattern: expensive models generate strategy, constraints, and reusable skills; cheaper models execute under those constraints; the system then evaluates and updates the harness. The risk is stale or overfit skills, so the useful version needs versioning, regression checks, and clear boundaries around what the advisor is allowed to change.
 
 Connect to my notes:
-- \` notes/coding\`
-- \` notes/ML/agent\`
-- \` notes/ML/LLM\`
 
 ## Rising topics
 
@@ -726,12 +711,6 @@ Connect to my notes:
 - GitHub and YouTube were healthy but did not add strong new weekly themes; forcing them into the map would overstate weak title-only material.
 
 ## Connect to my notes
-
-- Agent systems, harnesses, and nested loops: \` notes/ML/agent\`, \` notes/coding\`
-- LLM systems and model routing: \` notes/ML/LLM\`, \` notes/coding\`
-- Biomedical/scientific automation: \` notes/research\`, \` notes/biology\`
-- Diffusion and generative science: \` notes/ML/diffusion\`, \` notes/research\`
-- Attention and representation learning: \` notes/ML/attention\`, \` notes/ML/LLM\`
 
 ## Next week watchlist
 
@@ -969,9 +948,6 @@ Why it matters technically:
 - This is a move from prompt craft to runtime design. The key questions are harness generation, verification boundaries, task routing, and how to keep a human legible view of what the agent is doing while still letting it move quickly.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
-- \` notes/ML/LLM\`
 
 ## Theme 2: Benchmark and eval discourse got more adversarial about refusals, hidden policy behavior, and benchmark integrity
 
@@ -993,9 +969,6 @@ Why it matters technically:
 - If refusal handling, silent fallback, or policy-triggered degradation are hidden from the evaluator, benchmark numbers stop being comparable. For agent workflows, this is operationally important because a model can appear capable in demos but become unreliable exactly on the infrastructure and research tasks you care about.
 
 Connect to my notes:
-- \` notes/ML/LLM\`
-- \` notes/research\`
-- \` notes/coding\`
 
 ## Theme 3: Context, memory, and systems literacy are still the most credible leverage points
 
@@ -1017,9 +990,6 @@ Why it matters technically:
 - The underlying engineering problems are cache selection, memory pressure, retrieval quality, and system observability. This is where cost, latency, and agent reliability compound, and it is also where thin prompt-centric advice stops being useful.
 
 Connect to my notes:
-- \` notes/ML/RAG\`
-- \` notes/ML/LLM\`
-- \` notes/coding\`
 
 ## Theme 4: Automated research is getting more workflow-aware and more self-critical
 
@@ -1040,9 +1010,6 @@ Why it matters technically:
 - The useful direction here is not "full auto research" hype. It is treating instructions, skills, and workflow documents as explicit state that can be tested, revised, and measured against task outcomes.
 
 Connect to my notes:
-- \` notes/research\`
-- \` notes/ML/agent\`
-- \` notes/coding\`
 
 ## Theme 5: Frontier interest is still broadening outward to world models and robotics, but it is not the center of the saved feed yet
 
@@ -1061,9 +1028,6 @@ Why it matters technically:
 - If these signals intensify, they will likely pull memory, planning, simulation, and action-grounding questions out of coding-agent workflows and into richer environment models. For now, that is context-setting rather than this week’s main operating theme.
 
 Connect to my notes:
-- \` notes/ML/multimodal\`
-- \` notes/ML/LLM\`
-- \` notes/research\`
 
 ## Rising topics
 
@@ -1082,11 +1046,6 @@ Connect to my notes:
 - Because June 11-13 were blocked X days, this week’s map likely undercounts any themes that would have surfaced during those missing saved-source captures.
 
 ## Connect to my notes
-
-- Coding agents and orchestration: \` notes/ML/agent\`, \` notes/coding\`
-- LLM behavior, evals, and trust: \` notes/ML/LLM\`, \` notes/research\`
-- Memory, retrieval, and systems: \` notes/ML/RAG\`, \` notes/coding\`
-- Frontier adjacent signals: \` notes/ML/multimodal\`, \` notes/research\`
 
 ## Next week watchlist
 
@@ -1184,9 +1143,6 @@ Why it matters technically:
 - This is a shift from prompt chaining to runtime control logic. The hard engineering questions become harness generation, scoped state, verification boundaries, and how much autonomy to grant a workflow before it needs a human checkpoint.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
-- \` notes/ML/LLM\`
 
 ## Theme 2: Agent systems discourse is maturing from team-role theater to orchestration and containment
 
@@ -1209,9 +1165,6 @@ Why it matters technically:
 - The useful lesson is to treat agent systems as coordination software. Attention routing, isolation, and execution cost are first-order design concerns, and many "agent team" demos still understate the failure surface.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
-- \` notes/research\`
 
 ## Theme 3: Context, memory, and infra are becoming the real leverage points in AI engineering
 
@@ -1234,9 +1187,6 @@ Why it matters technically:
 - This is where agent performance actually compounds: better context selection, caching tradeoffs, memory boundaries, and infra literacy directly affect cost, latency, and failure recovery. The \`r.jina.ai\` item is a small but practical example of context-access tooling leaking into everyday workflows.
 
 Connect to my notes:
-- \` notes/ML/RAG\`
-- \` notes/ML/LLM\`
-- \` notes/coding\`
 
 ## Theme 4: Automated research remains a live interest, but the better saved items are skeptical and workflow-focused
 
@@ -1258,9 +1208,6 @@ Why it matters technically:
 - The core question is no longer whether an agent can summarize a paper. It is whether it can preserve source fidelity, manage experiments, and keep state across literature, notes, code, and evaluation without collapsing into shallow loops.
 
 Connect to my notes:
-- \` notes/research\`
-- \` notes/ML/agent\`
-- \` notes/ML/hands-on\`
 
 ## Theme 5: World models and robotics showed up as adjacent frontier signals, but not yet as the center of the saved feed
 
@@ -1280,9 +1227,6 @@ Why it matters technically:
 - If this signal strengthens, it could become the bridge between current agent tooling and longer-horizon systems that need richer environment models, memory, and action grounding. For now it reads as frontier context, not the dominant operational theme.
 
 Connect to my notes:
-- \` notes/ML/world model\`
-- \` notes/ML/robotics\`
-- \` notes/ML/LLM\`
 
 ## Rising topics
 
@@ -1401,8 +1345,6 @@ Why it matters technically:
 - The useful shift is from prompt choreography to executable orchestration. Once the model writes or adapts the workflow itself, the design problem becomes state partitioning, tool permissions, failure handling, and aggregation quality instead of just prompt wording.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
 
 ## Theme 2: Claude Code is being treated as a programmable dev environment, not a chat tool
 
@@ -1425,9 +1367,6 @@ Why it matters technically:
 - This points toward repository-native agent operations: stable instruction files, auditable review policy, and reusable context become the main leverage. The engineering question is how to keep those files scoped, versioned, and safe under long-running agent behavior.
 
 Connect to my notes:
-- \` notes/ML/LLM\`
-- \` notes/ML/RAG\`
-- \` notes/coding\`
 
 ## Theme 3: AI software engineering is converging on harnesses, contracts, and permission boundaries
 
@@ -1448,9 +1387,6 @@ Why it matters technically:
 - This is the operational layer missing from most agent demos. Contracts, isolated verification, and permissions are what separate a productive coding agent from an unsafe one. The tunnel item also matters because internal-tool access is becoming part of the deployment architecture, not just local experimentation.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/coding\`
-- \` notes/interview\`
 
 ## Theme 4: Automated research is becoming a first-class Claude/Codex workload
 
@@ -1471,9 +1407,6 @@ Why it matters technically:
 - The interesting question is no longer whether agents can summarize papers. It is whether they can maintain experimental state, preserve source fidelity, and avoid feedback loops while traversing papers, notes, code, and evaluation artifacts.
 
 Connect to my notes:
-- \` notes/ML/agent\`
-- \` notes/ML/hands-on\`
-- \` notes/research\`
 
 ## Theme 5: Tooling around memory, parsing, and retrieval is getting sharper because context is the bottleneck
 
@@ -1493,9 +1426,6 @@ Why it matters technically:
 - Memory is becoming an engineering surface: file layout, retrieval boundaries, parser accuracy, and note synchronization affect agent quality more than most benchmark wins. This is especially relevant for repo-scale coding and research workflows.
 
 Connect to my notes:
-- \` notes/ML/RAG\`
-- \` notes/ML/LLM\`
-- \` notes/podcast\`
 
 ## Rising topics
 
