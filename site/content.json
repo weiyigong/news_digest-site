@@ -1,9 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-07T12:00:00.000Z",
-  "content_hash": "8fb93123388536673b58354e26d691a1ff13efafa9b26767eafe0f392113ef63",
+  "generated_at": "2026-08-08T12:00:00.000Z",
+  "content_hash": "ede7d702396801ae4920049f2730a7e6d5e646f3b250d799fc8b5d4f04b44bd8",
   "counts": {
+    "journal-digests": 4,
     "ai-signals": 47,
     "build-ideas": 3,
     "weekly-research": 9,
@@ -19,9 +20,25 @@
       "status": "blocked",
       "last_successful_discovery_date": "2026-08-02",
       "published_digest_count": 26
+    },
+    "journal": {
+      "status": "partial",
+      "last_completed_date": "2026-08-08",
+      "last_successful_collection_at": "2026-08-08T16:03:07.000Z",
+      "published_digest_count": 4
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-08",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-08.md"
+    },
+    {
+      "id": "journal-digest-2026-08-07",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-07.md"
+    },
     {
       "id": "ai-signal-2026-08-07",
       "category": "ai-signals",
@@ -36,6 +53,16 @@
       "id": "weekly-research-2026-08-07-3f62ebff",
       "category": "weekly-research",
       "source": "content/ai/weekly/2026-08-07-weekly-ai-research-review.md"
+    },
+    {
+      "id": "journal-digest-2026-08-06",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-06.md"
+    },
+    {
+      "id": "journal-digest-2026-08-05",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-05.md"
     },
     {
       "id": "ai-signal-2026-08-05",
@@ -450,6 +477,37 @@
   ],
   "entries": [
     {
+      "id": "journal-digest-2026-08-08",
+      "category": "journal-digests",
+      "date": "2026-08-08",
+      "title": "Daily Journal Digest — 2026-08-08",
+      "summary": "1 new research article selected from the configured journals.",
+      "body": "Run time: 2026-08-08T16:03:07Z (America/Los_Angeles)\n\nCoverage window: 2026-08-06T16:03:40.000Z to 2026-08-08T16:03:07Z\n\nSource status: Nature Neuroscience ok; Nature Human Behaviour, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory unavailable (HTTP 403); NeuroImage invalid_dates (100 items); Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable (browser collector produced no artifact).\n\n## Nature Neuroscience\n\n- **Striatal endocannabinoids drive one-shot learning** — Charlotte Piette, Arnaud Hubert, Sylvie Perez, Jérémy Peixoto, Nicolas Gervasi, Hugues Berry, Jonathan Touboul, Laurent Venance. Published 2026-08-07. [Direct article](https://www.nature.com/articles/s41593-026-02392-z). Matched topic: learning. This study directly examines a neural mechanism for rapid learning, making it relevant to memory and learning research.\n\nUnavailable sources: Learning and Memory returned HTTP 403. The single configured browser-collector pass completed without its required output artifact, so Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences could not be assessed.",
+      "source_links": [
+        "https://www.nature.com/articles/s41593-026-02392-z"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "journal-digest-2026-08-07",
+      "category": "journal-digests",
+      "date": "2026-08-07",
+      "title": "Daily Journal Digest — 2026-08-07",
+      "summary": "Configured journal collection was blocked, so no new articles could be assessed.",
+      "body": "Run time: 2026-08-07 09:02 PDT (2026-08-07T16:02:10Z)\nCoverage window: since 2026-08-06T16:03:40.000Z\n\n## Source status\n\nAll configured sources were unavailable during this one-pass collection. No journal articles could be assessed or selected.\n\n- RSS: Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, Learning and Memory, PNAS, Psychological Science, and NeuroImage — unavailable (`fetch failed`).\n- Browser journals: Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences — unavailable because the configured browser collector could not start.\n\n## Digest\n\nNo digest items: every configured source was unavailable. The cache was deliberately left unchanged so the next successful run can backfill this coverage window.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "blocked"
+      ],
+      "publication_status": "published"
+    },
+    {
       "id": "ai-signal-2026-08-07",
       "category": "ai-signals",
       "date": "2026-08-07",
@@ -509,6 +567,51 @@
       "tags": [
         "weekly-research",
         "saved-source"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "journal-digest-2026-08-06",
+      "category": "journal-digests",
+      "date": "2026-08-06",
+      "title": "Daily Journal Digest — 2026-08-06",
+      "summary": "1 new research article selected from the configured journals.",
+      "body": "Run time: 2026-08-06T16:03:40Z\nCoverage window: 2026-08-06T04:08:53.000Z to 2026-08-06T16:03:40Z\n\n## Source status\n\nRSS: Nature Human Behaviour (empty); Nature Neuroscience (ok); Nature Reviews Neuroscience (empty); Learning and Memory (unavailable: HTTP 403); PNAS (empty); Psychological Science (empty); NeuroImage (invalid_dates: 100 items without usable dates).\n\nBrowser journals: Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences were unavailable because the single configured collector pass produced no artifact before its execution ceiling.\n\n## Nature Neuroscience\n\n- **[Comparative insights into insula structure and function](https://www.nature.com/articles/s41593-026-02380-3)** — Joey A. Charbonneau, Sarah B. Carp, Jeffrey L. Bennett, Savannah M. Maw, Gilda Moadab, John P. Christianson, Mark G. Baxter, and Eliza Bliss-Moreau. Published 2026-08-06. Matched topic: insula. This comparative work on insula structure and function is directly relevant to systems and cognitive neuroscience.",
+      "source_links": [
+        "https://www.nature.com/articles/s41593-026-02380-3"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "journal-digest-2026-08-05",
+      "category": "journal-digests",
+      "date": "2026-08-05",
+      "title": "Daily Journal Digest — Backfill through 2026-08-05",
+      "summary": "14 new research articles selected from the configured journals.",
+      "body": "- **Run completed:** 2026-08-05 21:08 PDT\n- **Coverage window:** 2026-07-24 09:00 PDT through 2026-08-05 21:08 PDT\n- **Result:** 14 previously unseen, relevant articles recovered from the last successful OpenClaw checkpoint.\n\n## Nature Human Behaviour\n\n### [Interaction with AI companions and psychological well-being](https://www.nature.com/articles/s41562-026-02516-2)\n\n- **Authors:** Yutong Zhang, Dora Zhao, Jeffrey T. Hancock, Robert Kraut, Diyi Yang\n- **Publication date:** 2026-08-04\n- **Matched topic:** AI\n- **Why it matters:** Directly examines how sustained human interaction with AI companions relates to psychological well-being.\n\n### [Longitudinal effect of early social media use on standardized learning outcomes during school career](https://www.nature.com/articles/s41562-026-02522-4)\n\n- **Authors:** Marco Gui, Chiara Respi, Giovanni Abbiati, Cristiana Paladini, Sofia Ercolanoni, Francesca Milzani, Tiziana Pirola, Giovanni Vezzoli\n- **Publication date:** 2026-08-03\n- **Matched topic:** Learning\n- **Why it matters:** Provides longitudinal behavioral evidence about digital-media exposure and learning outcomes.\n\n## Nature Neuroscience\n\n### [Norepinephrine and dopamine sensor crosstalk depends on local innervation density](https://www.nature.com/articles/s41593-026-02379-w)\n\n- **Authors:** Ricardo C. López, Natalie Noble, Özge D. Özçete, Leonardo Silenzi, Xintong Cai, Gillian E. Handy, Jonathan W. Andersen, Tommaso Patriarchi, Yulong Li, Pascal S. Kaeser\n- **Publication date:** 2026-08-05\n- **Matched topic:** Dopamine\n- **Why it matters:** Identifies a context-dependent measurement confound when interpreting genetically encoded catecholamine sensors.\n\n### [Rapid trajectory learning in mice and agents](https://www.nature.com/articles/s41593-026-02406-w)\n\n- **Author:** Luis A. Mejia\n- **Publication date:** 2026-08-03\n- **Matched topic:** Learning\n- **Why it matters:** Connects animal navigation behavior with agent learning, making it relevant to computational accounts of rapid spatial learning.\n\n## PNAS\n\n### [AI will reorganize science. Will research remain a human enterprise?](https://www.pnas.org/doi/abs/10.1073/pnas.2610088123?af=R)\n\n- **First author:** Michael E. Hochberg\n- **Publication date:** 2026-07-29\n- **Matched topic:** AI\n- **Why it matters:** Frames the institutional and epistemic consequences of increasing AI involvement in scientific research.\n\n### [Long-horizon associative learning as a unifying framework for statistical learning across scales](https://www.pnas.org/doi/abs/10.1073/pnas.2513423123?af=R)\n\n- **First author:** Lucas Benjamin\n- **Publication date:** 2026-07-28\n- **Matched topic:** Learning\n- **Why it matters:** Proposes a shared associative-learning account spanning multiple timescales of statistical learning.\n\n### [The human hippocampus can pattern separate memories by meaning](https://www.pnas.org/doi/abs/10.1073/pnas.2603114123?af=R)\n\n- **First author:** Alex Ilyés\n- **Publication date:** 2026-07-28\n- **Matched topics:** Hippocampus, memory\n- **Why it matters:** Directly addresses how hippocampal representations separate memories according to semantic structure.\n\n### [Developmental changes in memory structure and precision alter the use of retrieved episodes during decisions for reward](https://www.pnas.org/doi/abs/10.1073/pnas.2525494123?af=R)\n\n- **First author:** Nora C. Harhen\n- **Publication date:** 2026-07-29\n- **Matched topics:** Memory, decision, reward\n- **Why it matters:** Links developmental changes in episodic memory precision to reward-guided choice.\n\n### [A demographic theory of similarity-biased social learning](https://www.pnas.org/doi/abs/10.1073/pnas.2606741123?af=R)\n\n- **First author:** Alejandro Pérez Velilla\n- **Publication date:** 2026-07-30\n- **Matched topic:** Learning\n- **Why it matters:** Develops a formal account of how population structure affects similarity-biased social learning.\n\n### [Social dynamics of AI adoption in parents’ educational decisions](https://www.pnas.org/doi/abs/10.1073/pnas.2533193123?af=R)\n\n- **First author:** Leonardo Bursztyn\n- **Publication date:** 2026-07-31\n- **Matched topics:** AI, decision\n- **Why it matters:** Studies social influence on real-world AI adoption and decision-making in education.\n\n### [Lexical change is not a calibrated measure of LLM prevalence or its determinants](https://www.pnas.org/doi/abs/10.1073/pnas.2620928123?af=R)\n\n- **First author:** Chad M. Topaz\n- **Publication date:** 2026-07-27\n- **Matched topic:** LLM\n- **Why it matters:** Challenges a common method for inferring LLM use from aggregate changes in language.\n\n## Neuron\n\n### [HCN1 channels in GABAergic amygdalar neurons underpin male-biased aggressive behaviors](https://www.cell.com/neuron/fulltext/S0896-6273(26)00568-4)\n\n- **Publication date:** 2026-07-31\n- **Matched topic:** Amygdala\n- **Why it matters:** Links a defined amygdala cell population and ion channel to sex-biased aggressive behavior.\n\n### [Single-neuron resolution mapping of dopaminergic connectivity across development, adulthood, and degeneration](https://www.cell.com/neuron/fulltext/S0896-6273(26)00538-6)\n\n- **Publication date:** 2026-07-31\n- **Matched topic:** Dopamine\n- **Why it matters:** Provides a high-resolution view of dopaminergic circuit organization across lifespan and degeneration.\n\n## eLife\n\n### [From Syllables to Words: EEG Evidence of Different Age Trajectories in Speech Tracking and Statistical Learning in Infants at High and Low Likelihood for Autism](https://elifesciences.org/reviewed-preprints/109901)\n\n- **Publication date:** 2026-08-05\n- **Matched topics:** EEG, learning\n- **Why it matters:** Uses EEG to distinguish developmental trajectories in speech tracking and statistical learning.\n\n## Source status\n\n- **RSS:** Nature Human Behaviour, Nature Neuroscience, and PNAS produced selected articles. Nature Reviews Neuroscience and Psychological Science had no eligible unseen matches.\n- **Browser:** Neuron and eLife produced selected articles. Trends in Cognitive Sciences returned one dated but non-matching article; Journal of Neuroscience and Cognition returned no parsed records.\n- **Unavailable:** Learning and Memory returned HTTP 403.\n- **Invalid dates:** NeuroImage returned 100 feed entries without item-level online-publication timestamps; none were admitted from feed-refresh or future issue dates.\n\n## Quality exclusions\n\nThe final semantic pass excluded one publisher correction and five title-keyword matches from unrelated whale physiology, biochemical machine learning, demographic decisions, cell biology, and marine sediment research.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02516-2",
+        "https://www.nature.com/articles/s41562-026-02522-4",
+        "https://www.nature.com/articles/s41593-026-02379-w",
+        "https://www.nature.com/articles/s41593-026-02406-w",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2610088123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2513423123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2603114123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2525494123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2606741123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2533193123?af=R",
+        "https://www.pnas.org/doi/abs/10.1073/pnas.2620928123?af=R",
+        "https://www.cell.com/neuron/fulltext/S0896-6273(26)00568-4",
+        "https://www.cell.com/neuron/fulltext/S0896-6273(26)00538-6",
+        "https://elifesciences.org/reviewed-preprints/109901"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
       ],
       "publication_status": "published"
     },
