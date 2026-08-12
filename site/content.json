@@ -1,34 +1,49 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-08T12:00:00.000Z",
-  "content_hash": "ede7d702396801ae4920049f2730a7e6d5e646f3b250d799fc8b5d4f04b44bd8",
+  "generated_at": "2026-08-12T12:00:00.000Z",
+  "content_hash": "77946452e280d059da5c85acfe1632b5b8d4daccb83be637d768a1085417b0e2",
   "counts": {
-    "journal-digests": 4,
-    "ai-signals": 47,
+    "journal-digests": 5,
+    "ai-signals": 48,
+    "podcast-digests": 28,
     "build-ideas": 3,
-    "weekly-research": 9,
-    "podcast-digests": 26
+    "weekly-research": 9
   },
   "source_health": {
     "saved_ai": {
       "status": "ok",
-      "captured_at": "2026-08-07T15:03:00.000Z",
-      "last_successful_date": "2026-08-07"
+      "captured_at": "2026-08-12T17:12:20.000Z",
+      "last_successful_date": "2026-08-12"
     },
     "podcast": {
-      "status": "blocked",
-      "last_successful_discovery_date": "2026-08-02",
+      "status": "success",
+      "last_successful_discovery_date": "2026-08-12",
       "published_digest_count": 26
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-08",
-      "last_successful_collection_at": "2026-08-08T16:03:07.000Z",
-      "published_digest_count": 4
+      "last_completed_date": "2026-08-12",
+      "last_successful_collection_at": "2026-08-12T17:09:03.000Z",
+      "published_digest_count": 5
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-12",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-12.md"
+    },
+    {
+      "id": "ai-signal-2026-08-12",
+      "category": "ai-signals",
+      "source": "content/ai/daily/2026-08-12.json"
+    },
+    {
+      "id": "podcast-CHDbKSGoLjg",
+      "category": "podcast-digests",
+      "source": "content/podcast/morning-digests/Demis-Steps-Down-Apples-Memory-Problem-Microsofts-Clever-Trick - morning digest.md"
+    },
     {
       "id": "journal-digest-2026-08-08",
       "category": "journal-digests",
@@ -63,6 +78,11 @@
       "id": "journal-digest-2026-08-05",
       "category": "journal-digests",
       "source": "content/journals/daily/2026-08-05.md"
+    },
+    {
+      "id": "podcast-IwjEuO2-3Y4",
+      "category": "podcast-digests",
+      "source": "content/podcast/morning-digests/How-The-AI-Bet-Pays-Off-AI-Lab-Strategy-Game-With-David-Cahn - morning digest.md"
     },
     {
       "id": "ai-signal-2026-08-05",
@@ -477,6 +497,58 @@
   ],
   "entries": [
     {
+      "id": "journal-digest-2026-08-12",
+      "category": "journal-digests",
+      "date": "2026-08-12",
+      "title": "Daily Journal Digest — 2026-08-12",
+      "summary": "1 new research article selected from the configured journals.",
+      "body": "Run time: 2026-08-12T17:09:03Z (America/Los_Angeles)\n\nCoverage window: 2026-08-08T16:03:07.000Z to 2026-08-12T17:09:03Z\n\nSource status: Nature Neuroscience ok; Nature Human Behaviour, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items); Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable.\n\n## Nature Neuroscience\n\n- **Cross-region neuron co-firing mediated by ripple oscillations supports distributed working memory representations** — Ilya A. Verzhbinsky, Jonathan Daume, Sophia Cheng, Ueli Rutishauser, Eric Halgren. Published 2026-08-12. [Direct article](https://www.nature.com/articles/s41593-026-02403-z). Matched topics: working memory, memory. This study examines how ripple-linked coordination across brain regions supports distributed working-memory representations.\n\nUnavailable sources: Learning and Memory could not be collected. Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences could not be assessed during the configured collection pass.",
+      "source_links": [
+        "https://www.nature.com/articles/s41593-026-02403-z"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "ai-signal-2026-08-12",
+      "category": "ai-signals",
+      "date": "2026-08-12",
+      "title": "Saved AI signals — 2026-08-12",
+      "summary": "3 fresh saved-source items selected; the archive never pads a sparse day.",
+      "body": "## Ranked saved items\n\n### 1. Learning Pi by building through the pi-agent book\n\nWhy it matters: It combines a detailed architectural explanation of Pi with a concrete build-while-learning method, making the saved material more actionable than a passive reference.\n\nRecommended action: Use one chapter to recreate a small Pi subsystem, then record which design choice becomes clearer only through implementation.\n\n[Open the saved source](https://x.com/i/web/status/2086468605454254585)\n\n### 2. Pi Agent electronic book and implementation path\n\nWhy it matters: The comparison among Pi, Craft Agent, and MkAgent exposes a useful spectrum from minimal extensible harness to a more complete desktop product.\n\nRecommended action: Map one shared capability across Pi, Craft Agent, and MkAgent and compare how each implementation trades simplicity for product features.\n\n[Open the saved source](https://x.com/i/web/status/2086303436539346972)\n\n### 3. Frontier models show distinct software-engineering strengths\n\nWhy it matters: Task-specific performance differences suggest that routing coding work by category may be more effective than using one default model for every software-engineering task.\n\nRecommended action: Inspect the DeepSWE task definitions and reproduce a small routing test across bug fixing, testing, and feature development before adopting the reported model split.\n\n[Open the saved source](https://x.com/i/web/status/2086026481394983147)\n\n## Implementation ideas\n\n- Create a chapter-sized build-along for Pi that records architectural decisions, implementation friction, and what the hands-on step reveals.\n- Prototype a task-aware coding-model router using a small labeled suite for bug fixing, QA, feature work, and performance optimization.",
+      "source_links": [
+        "https://x.com/i/web/status/2086468605454254585",
+        "https://x.com/i/web/status/2086303436539346972",
+        "https://x.com/i/web/status/2086026481394983147"
+      ],
+      "tags": [
+        "ai-signals",
+        "saved-source",
+        "healthy"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "podcast-CHDbKSGoLjg",
+      "category": "podcast-digests",
+      "date": "2026-08-10",
+      "title": "Demis Steps Down, Apple’s Memory Problem, Microsoft’s Clever Trick",
+      "summary": "The episode centers on a major Google AI leadership shakeup, Apple’s exposure to AI-driven memory shortages, Microsoft’s AI capital-spending optics, and the risk that cloud growth is being inflated by circular AI spending. Reported developments include Demis Hassabis moving from Google DeepMind CEO to chairman and chief scientist, Koray Kavukcuoglu taking responsibility for AI model development, Jeff Dean leaving to",
+      "body": "> [!info] Source\n> YouTube: [Demis Steps Down, Apple’s Memory Problem, Microsoft’s Clever Trick](https://www.youtube.com/watch?v=CHDbKSGoLjg)\n> Guest: M.G. Siegler\n> Published: 2026-08-10\n\n## TL;DR\n\nThe episode centers on a major Google AI leadership shakeup, Apple’s exposure to AI-driven memory shortages, Microsoft’s AI capital-spending optics, and the risk that cloud growth is being inflated by circular AI spending. Reported developments include Demis Hassabis moving from Google DeepMind CEO to chairman and chief scientist, Koray Kavukcuoglu taking responsibility for AI model development, Jeff Dean leaving to co-found an AI startup, Apple warning of component shortages, and Microsoft changing how it accounts for some data-center leases. The hosts argue that Google may be split between near-term LLM competition and longer-term world-model research, Apple underprepared for AI’s supply-chain impact, and Wall Street may be underexamining how much AI cloud growth depends on OpenAI and Anthropic.\n\n## Key Takeaways\n\n- Google announced that Demis Hassabis is moving from CEO of Google DeepMind to chairman and chief scientist. Google DeepMind technology chief Koray Kavukcuoglu is taking responsibility for AI model development, while Jeff Dean and other veterans are leaving to start a new AI company.\n- The hosts interpret Hassabis’s move as a divergence between commercial pressure around large language models and his longer-running interest in scientific AI, world models, and breakthroughs beyond current LLM methods.\n- Apple warned that AI-driven demand for advanced chips and memory is straining supply chains, contributing to weaker guidance and investor concern. The hosts say Apple has been drawing down memory stockpiles.\n- The hosts speculate that component pressure could lead Apple to raise device prices, particularly for future iPhones and premium foldable or “Ultra” models.\n- Microsoft changed the accounting treatment for some data-center leases, moving from a 15-year to a 25-year useful-life framework for facilities. The hosts argue that this can make capital spending appear more restrained while total AI infrastructure investment remains substantial.\n- The hosts question whether cloud growth depends too heavily on spending by OpenAI, Anthropic, and related circular financing, in which AI companies raise capital and then spend it with cloud providers.\n- The hosts attribute some of Google’s AI difficulty to internal fragmentation, delayed model releases, and tension between near-term LLM products and longer-term world-model research.\n\n## Why It Matters\n\n- Google’s shakeup affects one of the most important AI labs at a moment when model leadership, coding agents, and research direction are central to the industry.\n- Apple shows that even companies not leading the AI data-center buildout can still be hurt by AI-driven supply constraints.\n- Microsoft’s accounting change highlights how AI infrastructure spending can look different depending on financial presentation, not only actual investment.\n- The hosts’ broader concern is that parts of the AI boom may depend on a small set of heavily funded customers recycling capital through cloud providers.\n\n## What to Watch\n\n- Whether Google’s new AI model leadership speeds up LLM releases and closes gaps in coding agents.\n- Whether Hassabis’s chairman and chief scientist role produces more emphasis on scientific AI and world models.\n- Apple’s next iPhone pricing, hardware margins, and response to component shortages.\n- Microsoft’s future capital and operating-expense disclosures for data centers, servers, and GPU depreciation.\n- How much cloud growth comes from broad enterprise adoption versus OpenAI, Anthropic, and related AI infrastructure deals.",
+      "source_links": [
+        "https://www.youtube.com/watch?v=CHDbKSGoLjg"
+      ],
+      "tags": [
+        "podcast-digests",
+        "big-technology",
+        "youtube"
+      ],
+      "publication_status": "published"
+    },
+    {
       "id": "journal-digest-2026-08-08",
       "category": "journal-digests",
       "date": "2026-08-08",
@@ -612,6 +684,23 @@
       "tags": [
         "journal-digests",
         "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "podcast-IwjEuO2-3Y4",
+      "category": "podcast-digests",
+      "date": "2026-08-05",
+      "title": "How The AI Bet Pays Off + AI Lab Strategy Game — With David Cahn",
+      "summary": "Sequoia partner David Cahn argues that AI’s investment cycle has moved from large to historically immense: roughly $3 trillion in cumulative AI infrastructure commitments since ChatGPT, with still more expected in 2027, now requires revenue far beyond today’s cloud and SaaS markets unless AI captures a meaningful share of human labor. He says the long-run opportunity may justify the spending if artificial general int",
+      "body": "> [!info] Source\n> YouTube: [How The AI Bet Pays Off + AI Lab Strategy Game — With David Cahn](https://www.youtube.com/watch?v=IwjEuO2-3Y4)\n> Guest: David Cahn\n> Published: 2026-08-05\n\n## TL;DR\n\nSequoia partner David Cahn argues that AI’s investment cycle has moved from large to historically immense: roughly $3 trillion in cumulative AI infrastructure commitments since ChatGPT, with still more expected in 2027, now requires revenue far beyond today’s cloud and SaaS markets unless AI captures a meaningful share of human labor. He says the long-run opportunity may justify the spending if artificial general intelligence arrives, but the near-term risk is a timing mismatch: companies are spending now while the biggest payoffs may take years or decades. The discussion frames AI as a strategic contest among OpenAI, Anthropic, Google, Meta, Microsoft, Amazon, Nvidia, Apple, and Elon Musk’s companies, with Cahn emphasizing talent, compute, distribution, ecosystem control, and founder-led clarity as decisive factors.\n\n## Key Takeaways\n\n- Cahn says his estimated AI payback requirement rose from about $200 billion for 2023 to $600 billion for 2024, $850 billion for 2025, and about $1.5 trillion for 2026, creating roughly $3 trillion of cumulative infrastructure burden before adding 2027.\n- The revenue challenge is larger than software alone. The conversation compares the roughly $1 trillion combined annual cloud-infrastructure and SaaS markets with Cahn’s argument that AI’s true addressable market is human labor. Capturing that value would require major automation, and who captures it remains uncertain.\n- Cahn’s central view is that nothing short of artificial general intelligence justifies the biggest spending plans. He presents two broad paths: the investment pays off spectacularly if AGI arrives, or the sector faces a reckoning if progress takes longer and coding is not followed by another major application.\n- Cahn portrays Anthropic and OpenAI as coherent but different AGI bets. In his view, Anthropic competes for elite AI talent through mission and culture, while OpenAI takes the most aggressive approach to spending and risk.\n- Google has two major assets—search cash flow and TPUs—but Cahn sees less strategic clarity. He would prefer Google to turn TPUs into a broad Nvidia-like ecosystem business rather than use them primarily for its internal AGI effort.\n- Cahn considers Microsoft well positioned for multiple outcomes: it can benefit through its OpenAI exposure if frontier models win, or through enterprise distribution if models commoditize.\n- Amazon and Apple represent contrasting forms of restraint. Amazon is spending heavily on AI infrastructure while largely selling compute, whereas Apple’s comparatively limited AI investment could look prudent if models commoditize.\n\n## Why It Matters\n\n- The AI boom is no longer only a product story; it is a capital-allocation story involving trillions of dollars.\n- Investors are debating not whether AI is useful, but whether revenue arrives quickly enough to justify current spending.\n- The companies best positioned may not be those spending the most, but those whose resources match a coherent strategy.\n- Cahn’s analysis separates reported financial scale from his predictions about AGI, market corrections, and company winners.\n\n## What to Watch\n\n- Whether AI revenue expands beyond coding into another major, durable business line.\n- Whether hyperscalers keep accelerating capital expenditure as free-cash-flow pressure rises.\n- Whether Google opens TPUs into a broader ecosystem or keeps prioritizing internal AGI efforts.\n- Whether Meta’s expensive talent strategy produces frontier progress or creates organizational strain.\n- Whether AI becomes a cultural and spiritual force as well as an economic one, a speculative thread Cahn says he is still exploring.",
+      "source_links": [
+        "https://www.youtube.com/watch?v=IwjEuO2-3Y4"
+      ],
+      "tags": [
+        "podcast-digests",
+        "big-technology",
+        "youtube"
       ],
       "publication_status": "published"
     },
