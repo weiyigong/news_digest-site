@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-12T12:00:00.000Z",
-  "content_hash": "77946452e280d059da5c85acfe1632b5b8d4daccb83be637d768a1085417b0e2",
+  "generated_at": "2026-08-13T12:00:00.000Z",
+  "content_hash": "8da59be35680d112572dc06ccb11ed7eefd28c1bd53f76200a37c1b581627e71",
   "counts": {
-    "journal-digests": 5,
+    "journal-digests": 6,
     "ai-signals": 48,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-12",
-      "last_successful_collection_at": "2026-08-12T17:09:03.000Z",
-      "published_digest_count": 5
+      "last_completed_date": "2026-08-13",
+      "last_successful_collection_at": "2026-08-13T16:02:07.000Z",
+      "published_digest_count": 6
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-13",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-13.md"
+    },
     {
       "id": "journal-digest-2026-08-12",
       "category": "journal-digests",
@@ -496,6 +501,22 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-13",
+      "category": "journal-digests",
+      "date": "2026-08-13",
+      "title": "Daily Journal Digest — 2026-08-13",
+      "summary": "1 new research article selected from the configured journals.",
+      "body": "Run time: 2026-08-13T16:02:07Z (America/Los_Angeles)\n\nCoverage window: 2026-08-12T17:09:03.000Z to 2026-08-13T16:02:07Z\n\nSource status: Nature Human Behaviour ok; Nature Neuroscience, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items); Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable.\n\n## Nature Human Behaviour\n\n- **Distinct neural processes link speech planning and execution** — Suseendrakumar Duraivel, Shervin Rahimpour, Katrina Barth, Chia-Han Chiang, Charles Wang, Stephen C. Harward, Shivanand P. Lad, Daniel P. Sexton, Allan H. Friedman, Saurabh R. Sinha, Gregory Hickok, Derek G. Southwell, Jonathan Viventi, Gregory Cogan. Published 2026-08-13. [Direct article](https://www.nature.com/articles/s41562-026-02546-w). Matched topic: planning. This study distinguishes neural processes involved in planning speech from those involved in executing it, making it relevant to cognitive neuroscience.\n\nUnavailable sources: Learning and Memory could not be collected. Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences could not be assessed during the configured collection pass.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02546-w"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-12",
       "category": "journal-digests",
