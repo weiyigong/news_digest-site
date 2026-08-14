@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-13T12:00:00.000Z",
-  "content_hash": "8da59be35680d112572dc06ccb11ed7eefd28c1bd53f76200a37c1b581627e71",
+  "generated_at": "2026-08-14T12:00:00.000Z",
+  "content_hash": "e0a2ead9c1f35f3de835524d3b6014d130637a0e6c507d18211a00cb1a455322",
   "counts": {
-    "journal-digests": 6,
-    "ai-signals": 48,
+    "journal-digests": 7,
+    "ai-signals": 49,
     "podcast-digests": 28,
     "build-ideas": 3,
     "weekly-research": 9
@@ -13,8 +13,8 @@
   "source_health": {
     "saved_ai": {
       "status": "ok",
-      "captured_at": "2026-08-12T17:12:20.000Z",
-      "last_successful_date": "2026-08-12"
+      "captured_at": "2026-08-14T16:04:07.000Z",
+      "last_successful_date": "2026-08-14"
     },
     "podcast": {
       "status": "success",
@@ -23,12 +23,22 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-13",
-      "last_successful_collection_at": "2026-08-13T16:02:07.000Z",
-      "published_digest_count": 6
+      "last_completed_date": "2026-08-14",
+      "last_successful_collection_at": "2026-08-14T16:03:16.000Z",
+      "published_digest_count": 7
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-14",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-14.md"
+    },
+    {
+      "id": "ai-signal-2026-08-14",
+      "category": "ai-signals",
+      "source": "content/ai/daily/2026-08-14.json"
+    },
     {
       "id": "journal-digest-2026-08-13",
       "category": "journal-digests",
@@ -501,6 +511,36 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-14",
+      "category": "journal-digests",
+      "date": "2026-08-14",
+      "title": "Daily Journal Digest — 2026-08-14",
+      "summary": "No new research articles passed the configured source, date, deduplication, and relevance gates.",
+      "body": "Run time: 2026-08-14T16:03:16Z (America/Los_Angeles)\n\nCoverage window: 2026-08-13T16:02:07.000Z to 2026-08-14T16:03:16Z\n\nSource status: Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items); Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable.\n\nNo new articles passed the configured date, cache, deduplication, and relevance gates during this coverage window.\n\nUnavailable sources: Learning and Memory could not be collected. Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences could not be assessed during the configured collection pass.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "zero-item"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "ai-signal-2026-08-14",
+      "category": "ai-signals",
+      "date": "2026-08-14",
+      "title": "Saved AI signals — 2026-08-14",
+      "summary": "0 fresh saved-source items selected; the archive never pads a sparse day.",
+      "body": "## Ranked saved items\n\nNo fresh, unused saved-source items were strong enough to publish.",
+      "source_links": [],
+      "tags": [
+        "ai-signals",
+        "saved-source",
+        "healthy"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-13",
       "category": "journal-digests",
