@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-14T12:00:00.000Z",
-  "content_hash": "e0a2ead9c1f35f3de835524d3b6014d130637a0e6c507d18211a00cb1a455322",
+  "generated_at": "2026-08-15T12:00:00.000Z",
+  "content_hash": "21b0e8b802fa470c51bc3a253fc1eeae8b4233f283007e1a8e879843d74f7c4b",
   "counts": {
-    "journal-digests": 7,
+    "journal-digests": 8,
     "ai-signals": 49,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-14",
-      "last_successful_collection_at": "2026-08-14T16:03:16.000Z",
-      "published_digest_count": 7
+      "last_completed_date": "2026-08-15",
+      "last_successful_collection_at": "2026-08-15T16:03:28.000Z",
+      "published_digest_count": 8
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-15",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-15.md"
+    },
     {
       "id": "journal-digest-2026-08-14",
       "category": "journal-digests",
@@ -511,6 +516,21 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-15",
+      "category": "journal-digests",
+      "date": "2026-08-15",
+      "title": "Daily Journal Digest — 2026-08-15",
+      "summary": "No new research articles passed the configured source, date, deduplication, and relevance gates.",
+      "body": "Run time: 2026-08-15T16:03:28Z (America/Los_Angeles)\n\nCoverage window: 2026-08-14T16:03:16.000Z to 2026-08-15T16:03:28Z\n\nSource status: Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\nNo new articles passed the configured date, cache, deduplication, and relevance gates during this coverage window.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "zero-item"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-14",
       "category": "journal-digests",
