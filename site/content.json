@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-16T12:00:00.000Z",
-  "content_hash": "3fdd45d12ba05af54090e16731c08f2332cd073000e26dcb13fc5e9e16aa1615",
+  "generated_at": "2026-08-17T12:00:00.000Z",
+  "content_hash": "afcea2474e670a086c53d53c6f225ea50ea6c5d4125e3f1cc95690fe6905b517",
   "counts": {
-    "journal-digests": 9,
+    "journal-digests": 10,
     "ai-signals": 49,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -12,8 +12,8 @@
   },
   "source_health": {
     "saved_ai": {
-      "status": "ok",
-      "captured_at": "2026-08-14T16:04:07.000Z",
+      "status": "blocked",
+      "captured_at": "2026-08-17T16:02:45.000Z",
       "last_successful_date": "2026-08-14"
     },
     "podcast": {
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-16",
-      "last_successful_collection_at": "2026-08-16T16:37:28.000Z",
-      "published_digest_count": 9
+      "last_completed_date": "2026-08-17",
+      "last_successful_collection_at": "2026-08-17T16:03:53.000Z",
+      "published_digest_count": 10
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-17",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-17.md"
+    },
     {
       "id": "journal-digest-2026-08-16",
       "category": "journal-digests",
@@ -521,6 +526,24 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-17",
+      "category": "journal-digests",
+      "date": "2026-08-17",
+      "title": "Daily Journal Digest — 2026-08-17",
+      "summary": "3 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-17T16:03:53Z (America/Los_Angeles)\n\nCoverage window: 2026-08-16T16:37:28.000Z to 2026-08-17T16:03:53Z\n\nSource status: Nature Human Behaviour and eLife ok; Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## Nature Human Behaviour\n\n- **Voluntary attention regulates acute immune responses in humans** — Nofar Mizrachi, Menachem Rottem, Liron Rozenkrantz. Published 2026-08-17. [Direct article](https://www.nature.com/articles/s41562-026-02541-1). Matched topic: attention. This study links voluntary attentional control to acute immune responses, making it relevant to cognitive regulation and mind–body interactions.\n\n## eLife\n\n- **A single evidence accumulation process informs perceptual choices and subsequent confidence reports** — John P Grogan, Luc Vermeylen, Sarah-Louise Mannion, Cameron McCabe, Daria Monakhovych, Kobe Desender, Redmond G O’Connell. Published 2026-08-17. [Direct article](https://elifesciences.org/reviewed-preprints/112343). Matched topic: choice. This study examines how a shared evidence-accumulation process supports perceptual decisions and confidence judgments.\n\n- **A behavioral architecture for realistic simulations of Drosophila larva locomotion and foraging** — Panagiotis Parthenios Sakagiannis, Anna-Maria Jürgensen, Martin Paul Nawrot. Published 2026-08-17. [Direct article](https://elifesciences.org/articles/104262). Matched topic: foraging. This work develops a computational behavioral architecture for realistic locomotion and foraging simulations, relevant to modeling adaptive behavior.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02541-1",
+        "https://elifesciences.org/reviewed-preprints/112343",
+        "https://elifesciences.org/articles/104262"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-16",
       "category": "journal-digests",
