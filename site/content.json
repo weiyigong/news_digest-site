@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-17T12:00:00.000Z",
-  "content_hash": "afcea2474e670a086c53d53c6f225ea50ea6c5d4125e3f1cc95690fe6905b517",
+  "generated_at": "2026-08-18T12:00:00.000Z",
+  "content_hash": "5e0892cc49db5057416470b10843a448b6427e2c99f730b113ce38ea25f0c0e8",
   "counts": {
-    "journal-digests": 10,
+    "journal-digests": 11,
     "ai-signals": 49,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-17",
-      "last_successful_collection_at": "2026-08-17T16:03:53.000Z",
-      "published_digest_count": 10
+      "last_completed_date": "2026-08-18",
+      "last_successful_collection_at": "2026-08-18T16:04:27.000Z",
+      "published_digest_count": 11
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-18",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-18.md"
+    },
     {
       "id": "journal-digest-2026-08-17",
       "category": "journal-digests",
@@ -526,6 +531,23 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-18",
+      "category": "journal-digests",
+      "date": "2026-08-18",
+      "title": "Daily Journal Digest — 2026-08-18",
+      "summary": "2 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-18T16:04:27Z (America/Los_Angeles)\n\nCoverage window: 2026-08-17T16:03:53.000Z to 2026-08-18T16:04:27Z\n\nSource status: eLife ok; Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## eLife\n\n- **Economic and social modulations of innate decision-making in mice exposed to visual threats** — Zhe Li, Jiahui Wang, Yidan Sun, Jialin Li, Ling-yun Li, Ya-tang Li. Published 2026-08-18. [Direct article](https://elifesciences.org/articles/107306). Matched topic: decision. This study examines how economic and social context modulates innate threat-related decisions in mice.\n\n- **Local inhibitory dynamics underpin temporal integration and functional segregation between barrels and septa in the mouse barrel cortex** — Ali Özgür Argunşah, Tevye Jason Stachniak, Jenq-Wei Yang, Linbi Cai, Alexander van der Bourg, Rahel Kastli, Theofanis Karayannis. Published 2026-08-18. [Direct article](https://elifesciences.org/articles/107099). Matched topic: temporal. This study links local inhibitory dynamics to temporal integration and functional organization in sensory cortex.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [
+        "https://elifesciences.org/articles/107306",
+        "https://elifesciences.org/articles/107099"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-17",
       "category": "journal-digests",
