@@ -1,34 +1,49 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-18T12:00:00.000Z",
-  "content_hash": "5e0892cc49db5057416470b10843a448b6427e2c99f730b113ce38ea25f0c0e8",
+  "generated_at": "2026-08-20T12:00:00.000Z",
+  "content_hash": "e51d45f23abf775b221fb6ccc555432c09bdf76ef34744bf024b2e343e94b4d3",
   "counts": {
-    "journal-digests": 11,
-    "ai-signals": 49,
+    "journal-digests": 13,
+    "ai-signals": 50,
     "podcast-digests": 28,
     "build-ideas": 3,
     "weekly-research": 9
   },
   "source_health": {
     "saved_ai": {
-      "status": "blocked",
-      "captured_at": "2026-08-17T16:02:45.000Z",
-      "last_successful_date": "2026-08-14"
+      "status": "ok",
+      "captured_at": "2026-08-19T16:03:33.000Z",
+      "last_successful_date": "2026-08-19"
     },
     "podcast": {
       "status": "success",
-      "last_successful_discovery_date": "2026-08-16",
+      "last_successful_discovery_date": "2026-08-20",
       "published_digest_count": 28
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-18",
-      "last_successful_collection_at": "2026-08-18T16:04:27.000Z",
-      "published_digest_count": 11
+      "last_completed_date": "2026-08-20",
+      "last_successful_collection_at": "2026-08-20T16:05:23.000Z",
+      "published_digest_count": 13
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-20",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-20.md"
+    },
+    {
+      "id": "journal-digest-2026-08-19",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-19.md"
+    },
+    {
+      "id": "ai-signal-2026-08-19",
+      "category": "ai-signals",
+      "source": "content/ai/daily/2026-08-19.json"
+    },
     {
       "id": "journal-digest-2026-08-18",
       "category": "journal-digests",
@@ -531,6 +546,54 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-20",
+      "category": "journal-digests",
+      "date": "2026-08-20",
+      "title": "Daily Journal Digest — 2026-08-20",
+      "summary": "No new research articles passed the configured source, date, deduplication, and relevance gates.",
+      "body": "Run time: 2026-08-20T16:05:23Z (America/Los_Angeles)\n\nCoverage window: 2026-08-19T16:04:27.000Z to 2026-08-20T16:05:23Z\n\nSource status: Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\nNo new articles passed the configured date, cache, deduplication, and relevance gates during this coverage window.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "zero-item"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "journal-digest-2026-08-19",
+      "category": "journal-digests",
+      "date": "2026-08-19",
+      "title": "Daily Journal Digest — 2026-08-19",
+      "summary": "No new research articles passed the configured source, date, deduplication, and relevance gates.",
+      "body": "Run time: 2026-08-19T16:04:27Z (America/Los_Angeles)\n\nCoverage window: 2026-08-18T16:04:27.000Z to 2026-08-19T16:04:27Z\n\nSource status: Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences empty; Nature Human Behaviour and Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\nNo new articles passed the configured date, cache, deduplication, and relevance gates during this coverage window.\n\nUnavailable sources: Nature Human Behaviour and Learning and Memory could not be collected.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "zero-item"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "ai-signal-2026-08-19",
+      "category": "ai-signals",
+      "date": "2026-08-19",
+      "title": "Saved AI signals — 2026-08-19",
+      "summary": "2 fresh saved-source items selected; the archive never pads a sparse day.",
+      "body": "## Ranked saved items\n\n### 1. Natural-language mind viruses spreading between AI agents\n\nWhy it matters: If the reported behavior holds, multi-agent systems need to treat model-generated instructions as potentially transmissible untrusted content, not merely isolated prompt input.\n\nRecommended action: Read the underlying study before accepting the claim, then extract its threat model, transfer conditions, and containment controls into a small offline safety test.\n\n[Open the saved source](https://x.com/i/web/status/2089459332173689292)\n\n### 2. Enabling a 1M-token Codex context window\n\nWhy it matters: The documented override creates a concrete tradeoff between retaining more project context and the performance and cost tuning represented by Codex's default limit.\n\nRecommended action: Compare the default and 1M-token settings on one long repository task, measuring answer quality, compaction behavior, latency, and token cost before changing the default.\n\n[Open the saved source](https://x.com/i/web/status/2089082893804896524)\n\n## Implementation ideas\n\n- Add a provenance label and propagation guard to a toy multi-agent message bus, then test whether untrusted model-generated instructions can cross an agent boundary.\n- Run a controlled default-versus-1M Codex context experiment on the same long repository task with identical acceptance checks.",
+      "source_links": [
+        "https://x.com/i/web/status/2089459332173689292",
+        "https://x.com/i/web/status/2089082893804896524"
+      ],
+      "tags": [
+        "ai-signals",
+        "saved-source",
+        "healthy"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-18",
       "category": "journal-digests",
