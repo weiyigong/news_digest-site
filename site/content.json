@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-20T12:00:00.000Z",
-  "content_hash": "e51d45f23abf775b221fb6ccc555432c09bdf76ef34744bf024b2e343e94b4d3",
+  "generated_at": "2026-08-21T12:00:00.000Z",
+  "content_hash": "d1b05b29d54c9175e6cfed808533425286b2356a278c52f5e73c7593995dff3d",
   "counts": {
-    "journal-digests": 13,
+    "journal-digests": 14,
     "ai-signals": 50,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -12,8 +12,8 @@
   },
   "source_health": {
     "saved_ai": {
-      "status": "ok",
-      "captured_at": "2026-08-19T16:03:33.000Z",
+      "status": "blocked",
+      "captured_at": "2026-08-21T16:39:19.000Z",
       "last_successful_date": "2026-08-19"
     },
     "podcast": {
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-20",
-      "last_successful_collection_at": "2026-08-20T16:05:23.000Z",
-      "published_digest_count": 13
+      "last_completed_date": "2026-08-21",
+      "last_successful_collection_at": "2026-08-21T16:39:29.000Z",
+      "published_digest_count": 14
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-21",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-21.md"
+    },
     {
       "id": "journal-digest-2026-08-20",
       "category": "journal-digests",
@@ -546,6 +551,22 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-21",
+      "category": "journal-digests",
+      "date": "2026-08-21",
+      "title": "Daily Journal Digest — 2026-08-21",
+      "summary": "1 new research article selected from the configured journals.",
+      "body": "Run time: 2026-08-21T16:39:29Z (America/Los_Angeles)\n\nCoverage window: 2026-08-20T16:05:23.000Z to 2026-08-21T16:39:29Z\n\nSource status: Neuron ok; Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## Neuron\n\n- **Two prefrontal-subcortical circuits estimate controllability and reflect its impact on learning**. Published 2026-08-21. [Direct article](https://www.cell.com/neuron/fulltext/S0896-6273(26)00584-2). Matched topics: prefrontal, learning. This study examines how prefrontal-subcortical circuits estimate controllability and translate it into changes in learning.\n\nUnavailable sources: Learning and Memory could not be collected. Author metadata for the selected Neuron article was not available from its canonical page during this run.",
+      "source_links": [
+        "https://www.cell.com/neuron/fulltext/S0896-6273(26)00584-2"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-20",
       "category": "journal-digests",
