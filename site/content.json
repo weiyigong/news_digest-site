@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-21T12:00:00.000Z",
-  "content_hash": "d1b05b29d54c9175e6cfed808533425286b2356a278c52f5e73c7593995dff3d",
+  "generated_at": "2026-08-23T12:00:00.000Z",
+  "content_hash": "d0181760e9fcab9209da07b8aead554cb4f253c0fbf464c5b609a498c077b247",
   "counts": {
-    "journal-digests": 14,
+    "journal-digests": 15,
     "ai-signals": 50,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-21",
-      "last_successful_collection_at": "2026-08-21T16:39:29.000Z",
-      "published_digest_count": 14
+      "last_completed_date": "2026-08-23",
+      "last_successful_collection_at": "2026-08-23T16:47:13.000Z",
+      "published_digest_count": 15
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-23",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-23.md"
+    },
     {
       "id": "journal-digest-2026-08-21",
       "category": "journal-digests",
@@ -551,6 +556,21 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-23",
+      "category": "journal-digests",
+      "date": "2026-08-23",
+      "title": "Daily Journal Digest — 2026-08-23",
+      "summary": "No new research articles passed the configured source, date, deduplication, and relevance gates.",
+      "body": "Run time: 2026-08-23T16:47:13Z (America/Los_Angeles)\n\nCoverage window: 2026-08-21T16:39:29.000Z to 2026-08-23T16:47:13Z\n\nSource status: Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable; NeuroImage invalid_dates (100 items).\n\nNo new articles passed the configured date, cache, deduplication, and relevance gates during this coverage window.\n\nUnavailable sources: Learning and Memory and the five configured browser journals could not be collected.",
+      "source_links": [],
+      "tags": [
+        "journal-digests",
+        "research-literature",
+        "zero-item"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-21",
       "category": "journal-digests",
