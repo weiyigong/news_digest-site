@@ -1,34 +1,44 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-23T12:00:00.000Z",
-  "content_hash": "d0181760e9fcab9209da07b8aead554cb4f253c0fbf464c5b609a498c077b247",
+  "generated_at": "2026-08-24T12:00:00.000Z",
+  "content_hash": "f3037c8c37ae623bd1218f1607590f07d61f6d031e877f8abc128e26b9aa6bdb",
   "counts": {
-    "journal-digests": 15,
-    "ai-signals": 50,
+    "journal-digests": 16,
+    "ai-signals": 51,
     "podcast-digests": 28,
     "build-ideas": 3,
     "weekly-research": 9
   },
   "source_health": {
     "saved_ai": {
-      "status": "blocked",
-      "captured_at": "2026-08-21T16:39:19.000Z",
-      "last_successful_date": "2026-08-19"
+      "status": "ok",
+      "captured_at": "2026-08-24T16:04:29.000Z",
+      "last_successful_date": "2026-08-24"
     },
     "podcast": {
       "status": "success",
-      "last_successful_discovery_date": "2026-08-20",
+      "last_successful_discovery_date": "2026-08-24",
       "published_digest_count": 28
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-23",
-      "last_successful_collection_at": "2026-08-23T16:47:13.000Z",
-      "published_digest_count": 15
+      "last_completed_date": "2026-08-24",
+      "last_successful_collection_at": "2026-08-24T16:03:28.000Z",
+      "published_digest_count": 16
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-24",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-24.md"
+    },
+    {
+      "id": "ai-signal-2026-08-24",
+      "category": "ai-signals",
+      "source": "content/ai/daily/2026-08-24.json"
+    },
     {
       "id": "journal-digest-2026-08-23",
       "category": "journal-digests",
@@ -556,6 +566,44 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-24",
+      "category": "journal-digests",
+      "date": "2026-08-24",
+      "title": "Daily Journal Digest — 2026-08-24",
+      "summary": "2 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-24T16:03:28Z (America/Los_Angeles)\n\nCoverage window: 2026-08-23T16:47:13.000Z to 2026-08-24T16:03:28Z\n\nSource status: Nature Human Behaviour ok; Nature Neuroscience, Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable; NeuroImage invalid_dates (100 items).\n\n## Nature Human Behaviour\n\n- **Large language models do not have emotions**. Authors: Amit Goldenberg, James J. Gross. Published 2026-08-24. [Direct article](https://www.nature.com/articles/s41562-026-02558-6). Matched topics: large language models. This commentary clarifies the limits of attributing emotional states to large language models, directly informing careful interpretation of AI behavior.\n\n- **Trial-by-trial fluctuations in decision criterion shape confidence**. Authors: Robin Vloeberghs, Lara Navarrete Orejudo, Anne E. Urai, Kobe Desender. Published 2026-08-24. [Direct article](https://www.nature.com/articles/s41562-026-02544-y). Matched topics: decision making. This study links moment-to-moment shifts in decision criteria to confidence judgments, offering evidence about how decision processes generate subjective certainty.\n\nUnavailable sources: Learning and Memory and the five configured browser journals could not be collected.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02558-6",
+        "https://www.nature.com/articles/s41562-026-02544-y"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "ai-signal-2026-08-24",
+      "category": "ai-signals",
+      "date": "2026-08-24",
+      "title": "Saved AI signals — 2026-08-24",
+      "summary": "5 fresh saved-source items selected; the archive never pads a sparse day.",
+      "body": "## Ranked saved items\n\n### 1. Codex from first use to advanced workflows\n\nWhy it matters: The guide addresses the boundary choices that most affect practical Codex work: project versus task scope, local versus isolated execution, planning, permissions, and the roles of plugins, skills, and MCP.\n\nRecommended action: Compare its workflow recommendations with the current Codex setup and retain only the settings that reduce friction without adding project bloat.\n\n[Open the saved source](https://x.com/i/web/status/2091339513134010554)\n\n### 2. Pi critiques long-running agent memory design\n\nWhy it matters: Evaluating whether a long-running agent can reconstruct what it already did is more operationally useful than comparing surface-level tool counts, especially for checkpointed automations.\n\nRecommended action: Read the linked Pi development note and extract one recoverability test for a multi-hour agent run: restart from persisted state and verify completed work is neither lost nor repeated.\n\n[Open the saved source](https://x.com/i/web/status/2091056022551187579)\n\n### 3. Using Claude Code sessions efficiently\n\nWhy it matters: Session discipline directly affects context quality, token use, and the reliability of long coding tasks, making the article a practical complement to agent-memory work.\n\nRecommended action: Extract the article's concrete session-management rules and test the two most relevant rules on one bounded repository task before adopting them.\n\n[Open the saved source](https://x.com/i/web/status/2090332487784480842)\n\n### 4. Pretraining a mini Kimi K3 from scratch\n\nWhy it matters: A costed, failure-documented training run can expose the real implementation gaps between released code and a reproducible model-training pipeline.\n\nRecommended action: Review the experiment log for dataset, architecture, compute, and failure-recovery details, then decide whether one small component is reproducible within a fixed compute budget.\n\n[Open the saved source](https://x.com/i/web/status/2090549027435954617)\n\n### 5. Stanford lecture on how ChatGPT and Claude are built\n\nWhy it matters: The end-to-end sequence from tokenization through training provides a compact systems map for connecting individual implementation details to model behavior.\n\nRecommended action: Use the lecture as a refresher and write down only the concepts that change how current model or agent experiments should be designed.\n\n[Open the saved source](https://x.com/i/web/status/2089059551697846430)\n\n## Implementation ideas\n\n- Add a restart-and-recovery test to one checkpointed automation to detect lost or duplicated work after a long agent run.\n- Build a concise decision table for Codex project, task, execution-mode, permission, plugin, skill, and MCP choices, keeping only settings that reduce recurring friction.",
+      "source_links": [
+        "https://x.com/i/web/status/2091339513134010554",
+        "https://x.com/i/web/status/2091056022551187579",
+        "https://x.com/i/web/status/2090332487784480842",
+        "https://x.com/i/web/status/2090549027435954617",
+        "https://x.com/i/web/status/2089059551697846430"
+      ],
+      "tags": [
+        "ai-signals",
+        "saved-source",
+        "healthy"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-23",
       "category": "journal-digests",
