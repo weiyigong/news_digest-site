@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-24T12:00:00.000Z",
-  "content_hash": "f3037c8c37ae623bd1218f1607590f07d61f6d031e877f8abc128e26b9aa6bdb",
+  "generated_at": "2026-08-25T12:00:00.000Z",
+  "content_hash": "4300a301dfa4201b1ac770ef7642bc0259a01773a4de2baf35a569af07b005dd",
   "counts": {
-    "journal-digests": 16,
+    "journal-digests": 17,
     "ai-signals": 51,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-24",
-      "last_successful_collection_at": "2026-08-24T16:03:28.000Z",
-      "published_digest_count": 16
+      "last_completed_date": "2026-08-25",
+      "last_successful_collection_at": "2026-08-25T16:05:19.000Z",
+      "published_digest_count": 17
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-25",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-25.md"
+    },
     {
       "id": "journal-digest-2026-08-24",
       "category": "journal-digests",
@@ -566,6 +571,24 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-25",
+      "category": "journal-digests",
+      "date": "2026-08-25",
+      "title": "Daily Journal Digest — 2026-08-25",
+      "summary": "3 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-25T16:05:19Z (America/Los_Angeles)\n\nCoverage window: 2026-08-24T16:03:28.000Z to 2026-08-25T16:05:19Z\n\nSource status: Nature Human Behaviour and Nature Neuroscience ok; Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## Nature Human Behaviour\n\n- **AI writing assistants shrink linguistic diversity and blur personal identity**. Published 2026-08-24. [Direct article](https://www.nature.com/articles/s41562-026-02549-7). Matched topics: AI. This article examines how AI writing assistance can make language more uniform and weaken the expression of individual identity.\n\n- **The shrinking landscape of linguistic diversity in the age of large language models**. Authors: Zhivar Sourati, Farzan Karimi-Malekabadi, Meltem Ozcan, Colin McDaniel, Alireza Ziabari, Jackson Trager, Ala N. Tak, Meng Chen, Fred Morstatter, Morteza Dehghani. Published 2026-08-24. [Direct article](https://www.nature.com/articles/s41562-026-02550-0). Matched topics: large language models. This study evaluates how large language models reshape linguistic diversity, with implications for human communication and AI-mediated expression.\n\n## Nature Neuroscience\n\n- **Social isolation recruits amygdala–medial prefrontal cortex projections to escalate alcohol drinking in male mice**. Authors: Reesha R. Patel, Kelly N. Kim, Makenzie Patarino, Rachelle Pamintuan, Felix H. Taschbach, Hao Li, Bitna Joo, Anna Pallé, Xianru Yu, Christopher R. Lee, Aniek van Hoek, Jesse White, Rogelio Castro, Christian Cazares, Raymundo L. Miranda, Caroline Jia, Jeremy Delahanty, Kanha Batra, Laurel R. Keyes, Avraham Libster, Romy Wichmann, Talmo D. Pereira, Marcus K. Benna, Kay M. Tye. Published 2026-08-25. [Direct article](https://www.nature.com/articles/s41593-026-02413-x). Matched topics: prefrontal cortex, amygdala. This study identifies an amygdala-to-medial-prefrontal circuit through which social isolation escalates alcohol consumption in male mice.\n\nUnavailable sources: Learning and Memory could not be collected. Author metadata for the first Nature Human Behaviour article was not available from its canonical page during this run.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02549-7",
+        "https://www.nature.com/articles/s41562-026-02550-0",
+        "https://www.nature.com/articles/s41593-026-02413-x"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-24",
       "category": "journal-digests",
