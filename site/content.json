@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-25T12:00:00.000Z",
-  "content_hash": "4300a301dfa4201b1ac770ef7642bc0259a01773a4de2baf35a569af07b005dd",
+  "generated_at": "2026-08-26T12:00:00.000Z",
+  "content_hash": "5db0bce4599f003a126f1fbbcdb3f2a4c8d9529d956454a6f8dfa032bda58e59",
   "counts": {
-    "journal-digests": 17,
-    "ai-signals": 51,
+    "journal-digests": 18,
+    "ai-signals": 52,
     "podcast-digests": 28,
     "build-ideas": 3,
     "weekly-research": 9
@@ -13,8 +13,8 @@
   "source_health": {
     "saved_ai": {
       "status": "ok",
-      "captured_at": "2026-08-24T16:04:29.000Z",
-      "last_successful_date": "2026-08-24"
+      "captured_at": "2026-08-26T16:01:24.896Z",
+      "last_successful_date": "2026-08-26"
     },
     "podcast": {
       "status": "success",
@@ -23,12 +23,22 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-25",
-      "last_successful_collection_at": "2026-08-25T16:05:19.000Z",
-      "published_digest_count": 17
+      "last_completed_date": "2026-08-26",
+      "last_successful_collection_at": "2026-08-26T16:03:46.000Z",
+      "published_digest_count": 18
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-26",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-26.md"
+    },
+    {
+      "id": "ai-signal-2026-08-26",
+      "category": "ai-signals",
+      "source": "content/ai/daily/2026-08-26.json"
+    },
     {
       "id": "journal-digest-2026-08-25",
       "category": "journal-digests",
@@ -571,6 +581,40 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-26",
+      "category": "journal-digests",
+      "date": "2026-08-26",
+      "title": "Daily Journal Digest — 2026-08-26",
+      "summary": "2 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-26T16:03:46Z (America/Los_Angeles)\n\nCoverage window: 2026-08-25T16:05:19.000Z to 2026-08-26T16:03:46Z\n\nSource status: Neuron and eLife ok; Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Cognition, Journal of Neuroscience, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## Neuron\n\n- **Ingestion-activated CGRP neurons control learning but not satiety**. Published 2026-08-26. [Direct article](https://www.cell.com/neuron/fulltext/S0896-6273(26)00610-0). Matched topics: learning. This study separates an ingestion-responsive neural pathway's role in learned behavior from its role in the immediate control of satiety.\n\n## eLife\n\n- **HSSM: A Widely Applicable Toolbox for Hierarchical Bayesian Neurocognitive Modeling**. Authors: Alexander Fengler, Yang Xu, Krishn Bera, Carlos Paniagua, Aisulu Omar, Michael J Frank. Published 2026-08-26. [Direct article](https://elifesciences.org/reviewed-preprints/112168). Matched topics: Bayesian. This work provides a hierarchical Bayesian modeling toolbox for estimating and comparing neurocognitive processes across participants and tasks.\n\nUnavailable sources: Learning and Memory could not be collected. Author metadata for the selected Neuron article was not available from its canonical page during this run.",
+      "source_links": [
+        "https://www.cell.com/neuron/fulltext/S0896-6273(26)00610-0",
+        "https://elifesciences.org/reviewed-preprints/112168"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "ai-signal-2026-08-26",
+      "category": "ai-signals",
+      "date": "2026-08-26",
+      "title": "Saved AI signals — 2026-08-26",
+      "summary": "1 fresh saved-source item selected; the archive never pads a sparse day.",
+      "body": "## Ranked saved items\n\n### 1. Thermo-Nuclear Code Quality Review skill\n\nWhy it matters: The review skill treats unnecessary structural complexity as the main defect, pushing reviewers to remove whole branches, helpers, modes, and conditions instead of limiting the review to local style issues.\n\nRecommended action: Run the skill against one small, well-tested module and compare its structural simplification suggestions with the existing tests before adopting any rewrite.\n\n[Open the saved source](https://x.com/i/web/status/2092059170812108811)\n\n## Implementation ideas\n\n- Evaluate whether a structure-first review pass can safely delete one redundant branch or helper from a bounded module while preserving its test behavior.",
+      "source_links": [
+        "https://x.com/i/web/status/2092059170812108811"
+      ],
+      "tags": [
+        "ai-signals",
+        "saved-source",
+        "healthy"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-25",
       "category": "journal-digests",
