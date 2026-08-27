@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-26T12:00:00.000Z",
-  "content_hash": "5db0bce4599f003a126f1fbbcdb3f2a4c8d9529d956454a6f8dfa032bda58e59",
+  "generated_at": "2026-08-27T12:00:00.000Z",
+  "content_hash": "002d565549ed32e85195b5d9be3987f201ae11689a2e0f0b96a53f65e50df217",
   "counts": {
-    "journal-digests": 18,
+    "journal-digests": 19,
     "ai-signals": 52,
     "podcast-digests": 28,
     "build-ideas": 3,
@@ -23,12 +23,17 @@
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-26",
-      "last_successful_collection_at": "2026-08-26T16:03:46.000Z",
-      "published_digest_count": 18
+      "last_completed_date": "2026-08-27",
+      "last_successful_collection_at": "2026-08-27T16:05:47.000Z",
+      "published_digest_count": 19
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-27",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-27.md"
+    },
     {
       "id": "journal-digest-2026-08-26",
       "category": "journal-digests",
@@ -581,6 +586,23 @@
     }
   ],
   "entries": [
+    {
+      "id": "journal-digest-2026-08-27",
+      "category": "journal-digests",
+      "date": "2026-08-27",
+      "title": "Daily Journal Digest — 2026-08-27",
+      "summary": "2 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-27T16:05:47Z (America/Los_Angeles)\n\nCoverage window: 2026-08-26T16:03:46.000Z to 2026-08-27T16:05:47Z\n\nSource status: eLife ok; Nature Human Behaviour, Nature Neuroscience, Nature Reviews Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## eLife\n\n- **Prenatal Alcohol Exposure Disrupts γ-Secretase Activity and Impairs Learning and Memory in Wild-Type and 3xTg-AD Mice**. Authors: Paola Montenegro, Rachel Kim, Mikayla Zedek, Marianna Chicas, Pamela Yeh, Hermes Yeh. Published 2026-08-27. [Direct article](https://elifesciences.org/reviewed-preprints/111776). Matched topics: learning, memory. This study examines how prenatal alcohol exposure alters γ-secretase activity and produces later learning and memory impairments in mouse models.\n\n- **Evolution imposes an inductive bias that alters and accelerates learning dynamics**. Authors: Benjamin Midler, Alejandro Pan Vazquez. Published 2026-08-27. [Direct article](https://elifesciences.org/reviewed-preprints/111582). Matched topics: learning. This work investigates how evolutionary selection builds inductive biases that change and accelerate subsequent learning dynamics.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [
+        "https://elifesciences.org/reviewed-preprints/111776",
+        "https://elifesciences.org/reviewed-preprints/111582"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
     {
       "id": "journal-digest-2026-08-26",
       "category": "journal-digests",
