@@ -1,34 +1,39 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-27T12:00:00.000Z",
-  "content_hash": "002d565549ed32e85195b5d9be3987f201ae11689a2e0f0b96a53f65e50df217",
+  "generated_at": "2026-08-28T12:00:00.000Z",
+  "content_hash": "cc6351dcf55a2c7dcff5ed5d1758d1b3aaddfb90de73ddb1849a059119ec00e1",
   "counts": {
-    "journal-digests": 19,
+    "journal-digests": 20,
     "ai-signals": 52,
-    "podcast-digests": 28,
+    "podcast-digests": 29,
     "build-ideas": 3,
     "weekly-research": 9
   },
   "source_health": {
     "saved_ai": {
-      "status": "ok",
-      "captured_at": "2026-08-26T16:01:24.896Z",
+      "status": "blocked",
+      "captured_at": "2026-08-28T16:04:30.000Z",
       "last_successful_date": "2026-08-26"
     },
     "podcast": {
       "status": "success",
-      "last_successful_discovery_date": "2026-08-24",
+      "last_successful_discovery_date": "2026-08-28",
       "published_digest_count": 28
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-27",
-      "last_successful_collection_at": "2026-08-27T16:05:47.000Z",
-      "published_digest_count": 19
+      "last_completed_date": "2026-08-28",
+      "last_successful_collection_at": "2026-08-28T16:05:52.000Z",
+      "published_digest_count": 20
     }
   },
   "allowlist": [
+    {
+      "id": "journal-digest-2026-08-28",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-08-28.md"
+    },
     {
       "id": "journal-digest-2026-08-27",
       "category": "journal-digests",
@@ -48,6 +53,11 @@
       "id": "journal-digest-2026-08-25",
       "category": "journal-digests",
       "source": "content/journals/daily/2026-08-25.md"
+    },
+    {
+      "id": "podcast-Hf4Z9Q58Gng",
+      "category": "podcast-digests",
+      "source": "content/podcast/morning-digests/Big-Techs-Insane-Hidden-AI-Spending-Ranking-Anthropic-vs-OpenAI-AI-For-Travel-Debate - morning digest.md"
     },
     {
       "id": "journal-digest-2026-08-24",
@@ -587,6 +597,24 @@
   ],
   "entries": [
     {
+      "id": "journal-digest-2026-08-28",
+      "category": "journal-digests",
+      "date": "2026-08-28",
+      "title": "Daily Journal Digest — 2026-08-28",
+      "summary": "3 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-08-28T16:05:52Z (America/Los_Angeles)\n\nCoverage window: 2026-08-27T16:05:47.000Z to 2026-08-28T16:05:52Z\n\nSource status: Nature Reviews Neuroscience and eLife ok; Nature Human Behaviour, Nature Neuroscience, PNAS, Psychological Science, Neuron, Cognition, Journal of Neuroscience, and Trends in Cognitive Sciences empty; Learning and Memory unavailable; NeuroImage invalid_dates (100 items).\n\n## Nature Reviews Neuroscience\n\n- **Learning whether one is in control**. Author: Jake Rogers. Published 2026-08-27. [Direct article](https://www.nature.com/articles/s41583-026-01076-8). Matched topics: learning. This article considers how organisms learn whether outcomes are under their control, a central question for adaptive decision making.\n\n## eLife\n\n- **Noradrenergic infraslow rhythm during sleep is the critical link between heart-rate dynamics and memory consolidation**. Authors: Sofie S Jacobsen, Allison B Morehouse, Pin-Chun Chen, Yi Qian, Ryszard S Gomolka, Mie Andersen, Maiken Nedergaard, Sara C Mednick, Celia Kjaerby. Published 2026-08-28. [Direct article](https://elifesciences.org/articles/110252). Matched topics: memory. This study links noradrenergic infraslow activity during sleep to coordinated heart-rate dynamics and memory consolidation.\n\n- **Dynamic fMRI networks of human emotion**. Authors: Niels Janssen, Uriel KA Elvira, Joost Janssen, Theo GM van Erp. Published 2026-08-28. [Direct article](https://elifesciences.org/articles/106070). Matched topics: fMRI. This work uses dynamic fMRI networks to characterize how distributed brain activity changes across human emotional states.\n\nUnavailable sources: Learning and Memory could not be collected.",
+      "source_links": [
+        "https://www.nature.com/articles/s41583-026-01076-8",
+        "https://elifesciences.org/articles/110252",
+        "https://elifesciences.org/articles/106070"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
       "id": "journal-digest-2026-08-27",
       "category": "journal-digests",
       "date": "2026-08-27",
@@ -652,6 +680,23 @@
       "tags": [
         "journal-digests",
         "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "podcast-Hf4Z9Q58Gng",
+      "category": "podcast-digests",
+      "date": "2026-08-24",
+      "title": "Big Tech’s Insane Hidden AI Spending, Ranking Anthropic vs. OpenAI, AI For Travel Debate",
+      "summary": "The episode asks whether Big Tech’s AI infrastructure boom is riskier than headline capital expenditure suggests. The hosts discuss reporting that nine major technology companies have roughly $3 trillion in off-balance-sheet commitments tied largely to AI, including Meta’s use of outside financing for large data-center projects. They then compare reported revenue figures suggesting Anthropic is accelerating sharply w",
+      "body": "> [!info] Source\n> YouTube: [Big Tech’s Insane Hidden AI Spending, Ranking Anthropic vs. OpenAI, AI For Travel Debate](https://www.youtube.com/watch?v=Hf4Z9Q58Gng)\n> Guest: Ranjan Roy\n> Published: 2026-08-24\n\n## TL;DR\n\nThe episode asks whether Big Tech’s AI infrastructure boom is riskier than headline capital expenditure suggests. The hosts discuss reporting that nine major technology companies have roughly $3 trillion in off-balance-sheet commitments tied largely to AI, including Meta’s use of outside financing for large data-center projects. They then compare reported revenue figures suggesting Anthropic is accelerating sharply while OpenAI’s growth has slowed and leadership churn has raised questions. The final segment argues that travel planning is a useful practical test for AI because it combines messy information, changing logistics, and real but manageable stakes.\n\n## Key Takeaways\n\n- A Wall Street Journal report cited by the hosts says nine major technology companies have about $3 trillion in off-balance-sheet commitments, mostly related to AI infrastructure, making total exposure much larger than standard capital-expenditure disclosures suggest.\n- Meta’s Hyperion data-center project is the clearest example discussed. Outside investors and debt financing allow the project and related obligations to sit outside Meta’s balance sheet for now, while Meta acts as tenant and has made guarantees tied to long-term lease economics.\n- The hosts argue that this structure makes investor risk harder to assess. Their concern is broader than the accounting treatment: public-market investors may not fully see how much leverage and future obligation is attached to the AI buildout.\n- Both hosts lean cautious on systemic risk. They do not dismiss AI’s technical progress, but argue that many of the largest companies are making highly leveraged versions of the same bet: future AI demand must be large enough, fast enough, and profitable enough to justify the buildout.\n- Bloomberg figures discussed on the show put Anthropic’s annualized revenue run rate above $65 billion by late July, with quarterly revenue reported at $11.5 billion, up sharply from the prior-year period.\n- The hosts frame OpenAI’s reported second-quarter numbers less favorably, citing 18% revenue growth from the first quarter while losses deepened and connecting that performance to questions about enterprise execution, coding competition, and executive turnover.\n- The hosts propose travel planning as a practical AI benchmark because it requires gathering unreliable web information, coordinating logistics, adapting to changes, and tolerating mistakes without the consequences being as severe as in enterprise work.\n\n## Why It Matters\n\n- AI infrastructure obligations may be understated if investors focus only on reported capital expenditure and balance-sheet debt.\n- The debate is not simply whether AI works; it is whether the economics arrive fast enough to support today’s financing commitments.\n- Anthropic’s and OpenAI’s IPO paths could become major tests of investor confidence in AI revenue quality, margins, and durability.\n- The hosts’ travel examples show how AI adoption may be easier to understand through ordinary, high-friction tasks than through benchmark scores alone.\n\n## What to Watch\n\n- Whether regulators, analysts, or investors push for clearer disclosure of off-balance-sheet AI commitments.\n- How Meta, Google, Oracle, and others explain future lease obligations and data-center financing in earnings materials.\n- Anthropic’s eventual IPO filing, especially actual revenue, losses, gross margins, customer concentration, and compute commitments.\n- OpenAI’s enterprise momentum, coding-product performance, executive stability, and any updated IPO timeline.\n- Whether AI travel workflows improve from advice and planning into reliable booking, itinerary management, and real-time trip support.",
+      "source_links": [
+        "https://www.youtube.com/watch?v=Hf4Z9Q58Gng"
+      ],
+      "tags": [
+        "podcast-digests",
+        "big-technology",
+        "youtube"
       ],
       "publication_status": "published"
     },
