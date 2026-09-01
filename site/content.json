@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
   "title": "Weiyi's AI Daily News",
-  "generated_at": "2026-08-31T12:00:00.000Z",
-  "content_hash": "63fff85690c969ccb1edeeb55cecae5635a89589353ebbf26a3dffa4f18786f6",
+  "generated_at": "2026-09-01T12:00:00.000Z",
+  "content_hash": "95576ddd7f074b499b8910b6a41f59cc64998b6c586eeb471ba6677983e39ce7",
   "counts": {
-    "journal-digests": 23,
+    "journal-digests": 24,
+    "podcast-digests": 30,
     "ai-signals": 52,
-    "podcast-digests": 29,
     "build-ideas": 3,
     "weekly-research": 9
   },
@@ -18,21 +18,31 @@
     },
     "podcast": {
       "status": "success",
-      "last_successful_discovery_date": "2026-08-28",
-      "published_digest_count": 28
+      "last_successful_discovery_date": "2026-09-01",
+      "published_digest_count": 29
     },
     "journal": {
       "status": "partial",
-      "last_completed_date": "2026-08-31",
-      "last_successful_collection_at": "2026-08-31T16:05:39.000Z",
-      "published_digest_count": 23
+      "last_completed_date": "2026-09-01",
+      "last_successful_collection_at": "2026-09-01T16:04:18.000Z",
+      "published_digest_count": 24
     }
   },
   "allowlist": [
     {
+      "id": "journal-digest-2026-09-01",
+      "category": "journal-digests",
+      "source": "content/journals/daily/2026-09-01.md"
+    },
+    {
       "id": "journal-digest-2026-08-31",
       "category": "journal-digests",
       "source": "content/journals/daily/2026-08-31.md"
+    },
+    {
+      "id": "podcast-bZ5nN6uHRzU",
+      "category": "podcast-digests",
+      "source": "content/podcast/morning-digests/Softwares-Epic-Comeback-Metas-AI-Layoffs-Blunder-South-Korea-Stock-Market-Chaos - morning digest.md"
     },
     {
       "id": "journal-digest-2026-08-30",
@@ -612,6 +622,23 @@
   ],
   "entries": [
     {
+      "id": "journal-digest-2026-09-01",
+      "category": "journal-digests",
+      "date": "2026-09-01",
+      "title": "Daily Journal Digest — 2026-09-01",
+      "summary": "2 new research articles selected from the configured journals.",
+      "body": "Run time: 2026-09-01T16:04:18Z (America/Los_Angeles)\n\nCoverage window: 2026-08-31T16:05:39.000Z to 2026-09-01T16:04:18Z\n\nSource status: Nature Human Behaviour and Nature Neuroscience ok; Nature Reviews Neuroscience, PNAS, and Psychological Science empty; Learning and Memory, Neuron, Cognition, Journal of Neuroscience, eLife, and Trends in Cognitive Sciences unavailable; NeuroImage invalid_dates (100 items).\n\n## Nature Human Behaviour\n\n- **The future of AI-assisted science is both fast and slow**. Authors: Yusuke Moriguchi, Yasuhiro Kanakogi. Published 2026-08-31. [Direct article](https://www.nature.com/articles/s41562-026-02574-6). Matched topics: AI. This article considers how AI may accelerate scientific workflows while preserving the slower reasoning and validation needed for reliable discovery.\n\n## Nature Neuroscience\n\n- **A new direction for neural networks**. Author: William P. Olson. Published 2026-09-01. [Direct article](https://www.nature.com/articles/s41593-026-02439-1). Matched topics: neural networks. This article highlights a new direction in neural-network research relevant to computational models of brain and behavior.\n\nUnavailable sources: Learning and Memory and the five configured browser journals could not be collected.",
+      "source_links": [
+        "https://www.nature.com/articles/s41562-026-02574-6",
+        "https://www.nature.com/articles/s41593-026-02439-1"
+      ],
+      "tags": [
+        "journal-digests",
+        "research-literature"
+      ],
+      "publication_status": "published"
+    },
+    {
       "id": "journal-digest-2026-08-31",
       "category": "journal-digests",
       "date": "2026-08-31",
@@ -623,6 +650,23 @@
         "journal-digests",
         "research-literature",
         "zero-item"
+      ],
+      "publication_status": "published"
+    },
+    {
+      "id": "podcast-bZ5nN6uHRzU",
+      "category": "podcast-digests",
+      "date": "2026-08-31",
+      "title": "Software’s Epic Comeback, Meta’s AI Layoffs Blunder, South Korea Stock Market Chaos",
+      "summary": "Software stocks have rebounded from fears that AI would quickly undermine SaaS, but the hosts argue the reprieve reflects slower enterprise adoption rather than proof that disruption is over. Salesforce’s strong earnings and Anthropic partnership helped shift sentiment, while Meta’s failed effort to reorganize teams around AI agents showed that more AI-generated code does not automatically mean more useful output. Th",
+      "body": "> [!info] Source\n> YouTube: [Software’s Epic Comeback, Meta’s AI Layoffs Blunder, South Korea Stock Market Chaos](https://www.youtube.com/watch?v=bZ5nN6uHRzU)\n> Guest: Ranjan Roy\n> Published: 2026-08-31\n\n## TL;DR\n\nSoftware stocks have rebounded from fears that AI would quickly undermine SaaS, but the hosts argue the reprieve reflects slower enterprise adoption rather than proof that disruption is over. Salesforce’s strong earnings and Anthropic partnership helped shift sentiment, while Meta’s failed effort to reorganize teams around AI agents showed that more AI-generated code does not automatically mean more useful output. The episode also covers Meta’s reported $18 billion settlement over youth social-media addiction claims and South Korea’s volatile AI-driven stock boom, where leveraged retail traders suffered sharp losses.\n\n## Key Takeaways\n\n- Salesforce’s rebound challenged the “SaaS apocalypse” narrative. Reported figures included a sharp post-earnings stock jump, a roughly 72% rise from late June to August 28, 2026, and a near-flat year-to-date position after earlier losses.\n- The hosts saw the Salesforce–Anthropic “Claude Force” partnership as more important symbolically than technically. They said Salesforce data could already be queried through AI tools, but Mark Benioff’s public alignment with Dario Amodei helped reassure investors.\n- The hosts argue SaaS disruption may still be real over a longer horizon. AI assistants could eventually replace some software interfaces, but business migration, trust, governance, and workflow change will take years rather than quarters.\n- Reuters reported Meta explored “Project OT,” an AI-driven reorganization that imagined smaller teams, fewer managers, and much more automated work. According to the discussion, the effort exposed limits in current AI coding agents rather than delivering a clean productivity breakthrough.\n- Meta’s internal data, as described in the episode, showed code changes rising much faster than user-facing product improvements. The hosts frame this as evidence that more code output can create reliability, security, and maintenance costs if it is not tied to clear outcomes.\n- Meta also reportedly agreed to pay $18 billion over a decade to settle lawsuits from nearly all U.S. states over claims that Facebook and Instagram harmed children and misled the public. The agreement includes teen-use limits such as like-count changes, chronological-feed options, usage limits, and notification restrictions.\n- South Korea’s AI stock boom became a warning case. The episode describes a sharp run-up in the KOSPI, a 40% drop over six weeks, a partial rebound, and major losses among retail investors using leveraged bets on chip-related names such as Samsung Electronics and SK Hynix.\n\n## Why It Matters\n\n- The episode separates AI capability from adoption speed: powerful tools do not instantly erase entrenched enterprise systems.\n- Meta’s experience suggests companies can overestimate AI productivity if they measure generated code instead of shipped, reliable features.\n- The youth social-media settlement shows regulators moving from criticism of platform design toward binding product restrictions.\n- South Korea’s retail-trading losses illustrate how AI enthusiasm can become financially dangerous even if the broader AI thesis remains intact.\n\n## What to Watch\n\n- Whether Salesforce can defend pricing and customer relationships if AI assistants become the main interface for enterprise data.\n- Whether Anthropic continues presenting itself as a partner to incumbents or eventually competes more directly with enterprise software vendors.\n- Whether Meta resumes larger layoffs or slows AI-driven workforce changes after the Project OT setback.\n- Whether teen-safety rules imposed on Meta spread to YouTube, TikTok, or other social platforms.\n- Whether AI-linked leveraged products create more localized market shocks outside South Korea.",
+      "source_links": [
+        "https://www.youtube.com/watch?v=bZ5nN6uHRzU"
+      ],
+      "tags": [
+        "podcast-digests",
+        "big-technology",
+        "youtube"
       ],
       "publication_status": "published"
     },
